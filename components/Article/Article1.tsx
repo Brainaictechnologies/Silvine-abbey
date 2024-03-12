@@ -1,5 +1,4 @@
 import React from "react";
-import SilvineBlack from "@/app/assets/silvineBlack.svg";
 
 const Article1 = () => {
   return (
@@ -30,7 +29,7 @@ const Article1 = () => {
         mission of transforming how businesses handle payments. The $14 million
         funding round will be instrumental in supporting the company&aps;s
         global expansion plans, advancing technological capabilities, and
-        solidifying Nearpay's commitment to driving excellence in payments
+        solidifying Nearpay&aps;s commitment to driving excellence in payments
         infrastructure with a focus on card present payments.
         <br />
         <br />
@@ -38,7 +37,7 @@ const Article1 = () => {
         supercharged with this investment. The road ahead is thrilling, filled
         with opportunities as we use this momentum to effortlessly revolutionize
         mobile transactions, creating seamless experiences for businesses and
-        consumers”, said Mohamed Aleban, Co-Founder & CEO of Nearpay.
+        consumers&quot;, said Mohamed Aleban, Co-Founder & CEO of Nearpay.
         <br />
         <br />
         Sanabil Investments spokesperson commented,” We are excited to back
