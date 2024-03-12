@@ -43,15 +43,15 @@ export default function Home() {
             <p className="text-gray-500">
               Our Capital raising methods includes issuing stocks, bonds,
               obtaining loans, seeking venture capital and private equity
-              investments. The choice of method depends on a company's financial
-              structure, risk tolerance, and strategic goals. Our effectively
-              executed capital raising, contributes to a company's financial
-              strength, enabling it to pursue opportunities and navigate
-              challenges in the dynamic business landscape. We provide adequate
-              capital to allows Nigerian businesses expand their operations,
-              invest in research and development, and adopt innovative
-              technologies. This, in turn, fosters economic growth and
-              competitiveness...
+              investments. The choice of method depends on a company&apos;s
+              financial structure, risk tolerance, and strategic goals. Our
+              effectively executed capital raising, contributes to a
+              company&apos;s financial strength, enabling it to pursue
+              opportunities and navigate challenges in the dynamic business
+              landscape. We provide adequate capital to allows Nigerian
+              businesses expand their operations, invest in research and
+              development, and adopt innovative technologies. This, in turn,
+              fosters economic growth and competitiveness...
             </p>
 
             {/* <div className="mt-4 flex ">
@@ -140,7 +140,7 @@ export default function Home() {
                 strive to deliver consistent value and financial growth for our
                 clients. Our portfolio comprises a mix of equities, fixed-income
                 securities, and alternative investments, carefully curated to
-                align with our clients' financial goals and risk tolerance.
+                align with our clients&apos; financial goals and risk tolerance.
               </p>
             </div>
 

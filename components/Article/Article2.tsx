@@ -9,9 +9,9 @@ const Article2 = () => {
         closure of a $14 million Series A funding round led by Sanabil
         Investments, a wholly owned company by the Public Investment Fund
         (“PIF”). This investment round, which includes Vision Ventures, Hala
-        Ventures, Arzan Ventures, and stc’s Corporate Investment Fund (CIF),
-        marks a pivotal moment for 02 Nearpay as it continues to redefine the
-        landscape of payments.
+        Ventures, Arzan Ventures, and stc&apos;s Corporate Investment Fund
+        (CIF), marks a pivotal moment for 02 Nearpay as it continues to redefine
+        the landscape of payments.
         <br />
         <br />
         Founded in 2020 by Mohamed Aleban and Hamza AlFarhan, Nearpay has
@@ -27,10 +27,10 @@ const Article2 = () => {
         <br />
         The Series A funding round will empower Nearpay to accelerate its
         mission of transforming how businesses handle payments. The $14 million
-        funding round will be instrumental in supporting the company’s global
-        expansion plans, advancing technological capabilities, and solidifying
-        Nearpay's commitment to driving excellence in payments infrastructure
-        with a focus on card present payments.
+        funding round will be instrumental in supporting the company&apos;s
+        global expansion plans, advancing technological capabilities, and
+        solidifying Nearpay&apos;s commitment to driving excellence in payments
+        infrastructure with a focus on card present payments.
         <br />
         <br />
         "Our vision for redefining payments has not only been validated but
@@ -49,7 +49,7 @@ const Article2 = () => {
         of growth”.
         <br />
         <br />
-        Nearpay's SoftPOS transforms every device with NFC(near field
+        Nearpay&apos;s SoftPOS transforms every device with NFC(near field
         communication) into a secure payment terminal, eliminating the need for
         extra hardware. This not only streamlines payments but also slashes
         costs for businesses, presenting an irresistible solution across diverse
@@ -57,8 +57,8 @@ const Article2 = () => {
         <br />
         <br />
         As Nearpay continues to disrupt the fintech space, the Series A funding
-        round reinforces the company's position as a key player in shaping the
-        future of payments.
+        round reinforces the company&apos;s position as a key player in shaping
+        the future of payments.
       </h4>
     </div>
   );

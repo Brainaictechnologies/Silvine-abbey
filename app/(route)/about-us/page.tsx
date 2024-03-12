@@ -33,6 +33,7 @@ const AboutUs = () => {
     <div className={`  text-center  ${styles} `}>
       {article.map((article) => (
         <div
+          key={article.id}
           onClick={() => setSelecetedArticle(article.name)}
           className={`cursor-pointer border-2  shadow-sm ${
             selectedArticle === article.name

@@ -10,7 +10,7 @@ const Article1 = () => {
         closure of a $14 million Series A funding round led by Sanabil
         Investments, a wholly owned company by the Public Investment Fund
         (“PIF”). This investment round, which includes Vision Ventures, Hala
-        Ventures, Arzan Ventures, and stc’s Corporate Investment Fund (CIF),
+        Ventures, Arzan Ventures, and stc&aps;s Corporate Investment Fund (CIF),
         marks a pivotal moment for 02 Nearpay as it continues to redefine the
         landscape of payments.
         <br />
@@ -28,10 +28,10 @@ const Article1 = () => {
         <br />
         The Series A funding round will empower Nearpay to accelerate its
         mission of transforming how businesses handle payments. The $14 million
-        funding round will be instrumental in supporting the company’s global
-        expansion plans, advancing technological capabilities, and solidifying
-        Nearpay's commitment to driving excellence in payments infrastructure
-        with a focus on card present payments.
+        funding round will be instrumental in supporting the company&aps;s
+        global expansion plans, advancing technological capabilities, and
+        solidifying Nearpay's commitment to driving excellence in payments
+        infrastructure with a focus on card present payments.
         <br />
         <br />
         "Our vision for redefining payments has not only been validated but
@@ -50,7 +50,7 @@ const Article1 = () => {
         of growth”.
         <br />
         <br />
-        Nearpay's SoftPOS transforms every device with NFC(near field
+        Nearpay&aps;s SoftPOS transforms every device with NFC(near field
         communication) into a secure payment terminal, eliminating the need for
         extra hardware. This not only streamlines payments but also slashes
         costs for businesses, presenting an irresistible solution across diverse
@@ -58,8 +58,8 @@ const Article1 = () => {
         <br />
         <br />
         As Nearpay continues to disrupt the fintech space, the Series A funding
-        round reinforces the company's position as a key player in shaping the
-        future of payments.
+        round reinforces the company&aps;s position as a key player in shaping
+        the future of payments.
       </h4>
     </div>
   );

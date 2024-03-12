@@ -52,8 +52,8 @@ export function Footer() {
                     What is Silvine holding period for direct investments?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Yes. It's animated by default, but you can disable it if you
-                    prefer.
+                    Yes. It&apos;s animated by default, but you can disable it
+                    if you prefer.
                   </AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4" className="text-start">
@@ -62,8 +62,8 @@ export function Footer() {
                     Investment?
                   </AccordionTrigger>
                   <AccordionContent>
-                    Yes. It's animated by default, but you can disable it if you
-                    prefer.
+                    Yes. It&apos;s animated by default, but you can disable it
+                    if you prefer.
                   </AccordionContent>
                 </AccordionItem>
               </Accordion>

@@ -18,7 +18,7 @@ const Faqs = () => {
         </div>
 
         <div className="mb-16">
-          <h1 className="uppercase py-6">Our Company FAQ's</h1>
+          <h1 className="uppercase py-6">Our Company FAQ&apos;s</h1>
           <p className="font-bold text-gray-800 max-w-[60rem]">
             We concentrate on providing trade instruments, investments and
             project development. We are a nimble and highly experienced team of
@@ -102,8 +102,8 @@ const Faqs = () => {
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
                 A letter of credit is a financial instrument issued by a bank
-                that guarantees a buyer's payment to a seller, provided that
-                certain conditions are met. It acts as a secure method of
+                that guarantees a buyer&apos;s payment to a seller, provided
+                that certain conditions are met. It acts as a secure method of
                 payment in international trade transactions.
               </AccordionContent>
             </AccordionItem>
@@ -154,10 +154,10 @@ const Faqs = () => {
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
                 A documentary collection is a trade finance method where the
-                exporter's bank collects payment from the importer through the
-                presentation of documents. The exporter retains control of the
-                goods until the importer makes the payment or accepts a bill of
-                exchange.
+                exporter&apos;s bank collects payment from the importer through
+                the presentation of documents. The exporter retains control of
+                the goods until the importer makes the payment or accepts a bill
+                of exchange.
               </AccordionContent>
             </AccordionItem>
 
@@ -227,7 +227,7 @@ const Faqs = () => {
               <AccordionContent className="max-w-[60rem]">
                 Consider market demand, regulatory environment, financial
                 viability, risk assessment, and alignment with the
-                organisation's overall strategy.
+                organisation&apos;s overall strategy.
               </AccordionContent>
             </AccordionItem>
 
@@ -330,9 +330,9 @@ const Faqs = () => {
                 What is an Initial Public Offering (IPO)?
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
-                An IPO is the first sale of a company's stock to the public. It
-                allows a privately-owned company to become publicly traded and
-                raise capital from public investors.
+                An IPO is the first sale of a company&apos;s stock to the
+                public. It allows a privately-owned company to become publicly
+                traded and raise capital from public investors.
               </AccordionContent>
             </AccordionItem>
 
@@ -344,7 +344,7 @@ const Faqs = () => {
               <AccordionContent className="max-w-[60rem]">
                 Consider market demand, regulatory environment, financial
                 viability, risk assessment, and alignment with the
-                organisation's overall strategy.
+                organisation&apos;s overall strategy.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
