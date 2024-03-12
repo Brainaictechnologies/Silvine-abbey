@@ -33,7 +33,7 @@ const Article1 = () => {
         infrastructure with a focus on card present payments.
         <br />
         <br />
-        "Our vision for redefining payments has not only been validated but
+        &quot;Our vision for redefining payments has not only been validated but
         supercharged with this investment. The road ahead is thrilling, filled
         with opportunities as we use this momentum to effortlessly revolutionize
         mobile transactions, creating seamless experiences for businesses and
