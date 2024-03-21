@@ -22,12 +22,12 @@ export default function Home() {
       <Hero />
       <div className="max-w-screen-xl sm:mx-auto mx-6 ">
         <h1 className="mb-2 mt-10 text-2xl font-bold px-6">Our Impact</h1>
-        <p className="text-[10px] font-[100] text-gray-500 px-6">
+        <p className="text-[10px]  text-gray-900 px-6">
           Fufilling Promise: Unveiling the transformative impact on our
           inovators
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-6 mx-auto">
-          <div className="bg-[#29337b] text-white p-6">
+          <div className="bg-[#29337b] text-white p-6 ">
             <h1 className="py-4 text-2xl">Our Ambition</h1>
             <p>
               We aspire to become leaders in the global market. This involves
@@ -54,9 +54,9 @@ export default function Home() {
               fosters economic growth and competitiveness...
             </p>
 
-            <div className="grid grid-cols-3 gap-0 w-full  items-end mx-0 mt-32 h-72  ">
-              <div className="bg-[#0d6efd] text-white transition-all duration-300  h-16 hover:h-60 grid place-items-center overflow-hidden ">
-                <h1 className=" mb-2  text-sm md:text-base font-bold pt-4  text-center px-1">
+            <div className="grid grid-cols-3 gap-0 w-full  items-end mx-0 mt-12 h-72  ">
+              <div className="bg-[#0d6efd] text-white transition-all duration-300  space-y-6 h-16 hover:space-y-0 hover:h-[17rem] md:hover:h-60 grid mx-auto overflow-hidden ">
+                <h1 className=" md:mb-2  text-sm md:text-base font-bold mt-5  text-center px-1">
                   Capital Raising
                 </h1>
                 <p className="text-center text-xs md:text-base">
@@ -65,18 +65,18 @@ export default function Home() {
                   mitigate risks
                 </p>
               </div>
-              <div className="bg-[#052c65] text-white transition-all duration-300  h-16 hover:h-60 px-2  grid place-items-center overflow-hidden">
-                <h1 className="mb-2  text-sm md:text-base font-bold pt-4  text-center px-1">
+              <div className="bg-[#052c65] text-white  transition-all duration-300  h-16 space-y-8 hover:space-y-0 hover:h-[17rem] md:hover:h-60 px-2  mx-auto overflow-hidden">
+                <h1 className="md:mb-2  text-sm md:text-base font-bold  text-center mt-4 px-1">
                   Trade Financing
                 </h1>
                 <p className="text-center text-xs md:text-base">
                   Capital Raising Silvine investment is built on trust &
-                  credibility and infused in our DNA? is the adroitness to
+                  credibility and infused in our DNA? is the 5droitness to
                   delivering financial solutions to various businesses.
                 </p>
               </div>
-              <div className="bg-[#8692ea] text-white transition-all duration-500  h-16 hover:h-64 grid place-items-center overflow-hidden px-2">
-                <h1 className="mb-3  text-sm md:text-base font-bold pt-4  text-center px-1">
+              <div className="bg-[#8692ea] text-white transition-all duration-500  h-16 hover:h-fit grid place-items-center overflow-hidden px-2">
+                <h1 className="md:mb-3  text-sm md:text-base font-bold my-6  text-center px-1">
                   Project Develpment
                 </h1>
                 <p className="text-center text-xs sm:text-base">
@@ -89,10 +89,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="flex ">
-        <p></p>
-        <p></p>
-      </div>
+
       <div className=" ">
         <div className="max-w-screen-lg  grid max-[500px]:grid-cols-1 grid-cols-3 mt-32 mb-10  gap-4 place-items-center  mx-8 sm:mx-12 md:mx-auto lg:px-6 ">
           <div className="bg-[#FBF9F7] py-8 px-6 shadow-md hover:bg-black ">
@@ -146,16 +143,22 @@ export default function Home() {
 
       <div className="max-w-screen-xl mx-auto px-6">
         <h1 className="mb-2 mt-10 text-2xl font-bold">Portfolio</h1>
-        <p className="text-[10px] font-[100] text-gray-500 mb-6">
+        <p className="text-[10px]  mb-6">
           Our Portfolio Showcasing Excellence: A Visual Chronicle of Our Diverse
         </p>
 
-        <div className="relative w-full h-full mb-6 aspect-[70/35]">
-          <div className=" ">
-            <Image src={Portfolio} alt="Portfolio" fill className="" />
+        <div className="relative w-full h-full mb-6 aspect-square md:aspect-[75/45]">
+          <div className="block w-full">
+            <Image
+              src={Portfolio}
+              alt="Portfolio"
+              fill
+              className="block w-full"
+            />
           </div>
-          <div className="sm:absolute top-0 left-0 grid place-items-center h-full  ">
-            <div className=" grid grid-cols-1 sm:grid-cols-2  px-4 lg:px-6 h-full place-items-center gap-6 bg-[#1F275E] sm:bg-transparent">
+
+          <div className="absolute sm:top-0 sm:left-0 grid place-items-center w-full h-full  ">
+            <div className=" grid grid-cols-1 sm:grid-cols-2  px-4 lg:px-6 h-full place-items-center gap-0 md:gap-6 ">
               <div className="text-white">
                 <h1 className=" py-3 font-bold">Overview</h1>
                 <p className="">
@@ -168,7 +171,7 @@ export default function Home() {
                 </p>
               </div>
 
-              <div className="grid grid-cols-3 gap-6 py-12 w-full">
+              <div className=" mt-[-2.6rem] grid grid-cols-3 items-start md:items-center gap-6 py-12 w-full">
                 <Image
                   src={svg}
                   alt="svg capital"
@@ -196,7 +199,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="hidden md:grid  grid-cols-5 items-end text-white absolute bottom-0 ">
+            <div className="hidden md:grid  grid-cols-5 items-end text-white absolute bottom-0  ">
               <p className="bg-[#8692ea] h-24 text-center flex items-center justify-center text-xl w-40 font-[500]">
                 Real Estate
               </p>

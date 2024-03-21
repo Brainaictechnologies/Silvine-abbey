@@ -65,7 +65,7 @@ const Hero = () => {
         </p>
       </div>
       <div className="absolute  w-full bottom-0 right-0 h-fit md:h-60 text-white  flex flex-col justify-end md:flex-row items-end  gap-2 md:gap-0 z-20 overflow-hidden ">
-        <div className="bg-white p-6 md:p-3 text-black ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-96 md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
+        <div className="bg-white p-6 md:p-3 text-black ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-[22rem] md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
           <h1 className="py-4 font-bold">Trade Finance</h1>
           <p className="text-xs md:pb-4 ">
             Silvine is positioned to promoting global trade by providing
@@ -73,7 +73,7 @@ const Hero = () => {
             mitigate risks
           </p>
         </div>
-        <div className="bg-black  p-6 md:p-3 text-white ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-96 md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
+        <div className="bg-black  p-6 md:p-3 text-white ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-[22rem]  md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
           <h1 className="py-4"> Capital Raising</h1>
           <p className="text-xs md:pb-4">
             Capital Raising Silvine investment is built on trust & credibility
@@ -81,7 +81,7 @@ const Hero = () => {
             solutions to various businesses.
           </p>
         </div>
-        <div className="bg-[#29337b] p-6 md:p-3 text-white ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-96 md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
+        <div className="bg-[#29337b] p-6 md:p-3 text-white ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-[22rem]  md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
           <h1 className="py-4">Project Development</h1>
           <p className="text-xs md:pb-4 ">
             We help secure funding from investors, lenders, or government
