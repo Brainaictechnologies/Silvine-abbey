@@ -12,11 +12,12 @@ import Instagram from "@/app/assets/instagram (2).png";
 import LinkedIn from "@/app/assets/linkedin.png";
 import X from "@/app/assets/x.png";
 import Link from "next/link";
+import footer from "@/app/assets/footer-effect.png";
 
 export function Footer() {
   const date = new Date();
   return (
-    <section className="bg-[#0D1027]">
+    <section className="bg-[#0D1027] relative">
       <div className="max-w-screen-xl mx-auto pt-10 text-white px-6 pb-12">
         <div className="mt-16 grid grid-cols-1 md:grid-cols-2 place-items-center h-full w-full">
           <div className="w-full">
@@ -176,6 +177,12 @@ export function Footer() {
           All rights Reserved to Silvine Ⓒ {date.getFullYear()}
         </p>
       </div>
+
+      <Image
+        src={footer}
+        alt="footer effect"
+        className="absolute right-0 bottom-0"
+      />
     </section>
   );
 }

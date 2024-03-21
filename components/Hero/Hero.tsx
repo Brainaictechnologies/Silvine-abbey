@@ -1,11 +1,12 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import Herobcg from "@/app/assets/home-bg.png";
+import Herobcg from "@/app/assets/bcg.jpeg";
 import Mobilebcg from "@/app/assets/mobile-hero.png";
 import { ReactTyped } from "react-typed";
 
 const Hero = () => {
+  const [showText, setShowText] = useState("");
   const windowObj = typeof window !== "undefined";
   const [windowSize, setWindowSize] = useState(() => {
     if (windowObj) {
@@ -38,16 +39,16 @@ const Hero = () => {
 
   return (
     <section className="w-full h-full relative">
-      <div className="max-w-screen-2xl mx-auto relative ">
+      <div className="max-w-screen-2xl  w-full h-[70vh] sm:h-[100vh] mx-auto relative aspect-[70/20] sm:aspect-square">
         <Image
           src={
             windowSize?.width && windowSize?.width <= 640 ? Mobilebcg : Herobcg
           }
           alt="Hero Image"
-          className="h-[100vh] mx-auto"
+          className="h-[70vh] sm:h-[100vh] w-full"
         />
       </div>
-      <div className="absolute z-20 top-[8rem] sm:left-[5rem] left-0 w-full sm:w-fit text-center sm:text-start">
+      <div className="absolute z-20 top-[8rem] sm:top-[14rem] sm:left-[5rem] left-0 w-full sm:w-fit text-center sm:text-start">
         <h1 className=" text-[28px] md:text-4xl tracking-wide text-white md:mb-2  sm:py-0 font-bold">
           Unleashing the Power of{" "}
           <span className="text-[#29337b] font-bold block sm:inline py-3">
@@ -62,43 +63,33 @@ const Hero = () => {
         <p className="text-white  sm:text-sm font-light md:mb-6 py-2 md:py-0">
           Silvine strategies transform futures
         </p>
-        <h1 className="text-white  sm:text-sm py-2 md:py-0">
-          Silvine Investment
-        </h1>
-        <p className="text-white  sm:text-sm font-extralight py-2 sm:py-0">
-          Empowering your financial Journey
-        </p>
-
-        <p className=" sm:text-sm md:mt-8 text-white md:border-b border-white w-full sm:w-fit md:max-w-[45rem]">
-          Read the company strategy
-        </p>
       </div>
-      {/* <div className="absolute bottom-0 right-0 z-20 w-fit md:max-w-[55rem] text-white flex flex-col md:flex-row  gap-2 md:gap-0">
-        <div className="bg-white p-6 md:p-3 text-black ml-8 md:ml-0 ">
-          <h1>Trade Finance</h1>
-          <p>
+      <div className="absolute  w-full bottom-0 right-0 h-fit md:h-60 text-white  flex flex-col justify-end md:flex-row items-end  gap-2 md:gap-0 z-20 overflow-hidden ">
+        <div className="bg-white p-6 md:p-3 text-black ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-96 md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
+          <h1 className="py-4 font-bold">Trade Finance</h1>
+          <p className="text-xs md:pb-4 ">
             Silvine is positioned to promoting global trade by providing
             financial instruments necessary to facilitate transactions and
             mitigate risks
           </p>
         </div>
-        <div className="bg-black p-6 md:p-3 ml-8 md:ml-0">
-          <h1> Capital Raising</h1>
-          <p>
+        <div className="bg-black  p-6 md:p-3 text-white ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-96 md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
+          <h1 className="py-4"> Capital Raising</h1>
+          <p className="text-xs md:pb-4">
             Capital Raising Silvine investment is built on trust & credibility
             and infused in our DNA? is the adroitness to delivering financial
             solutions to various businesses.
           </p>
         </div>
-        <div className="bg-[#29337b] p-6 md:p-3 ml-8 md:ml-0">
-          <h1>Project Development</h1>
-          <p>
+        <div className="bg-[#29337b] p-6 md:p-3 text-white ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-96 md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
+          <h1 className="py-4">Project Development</h1>
+          <p className="text-xs md:pb-4 ">
             We help secure funding from investors, lenders, or government
             agencies. Ensuring compliance with financial regulatory
             requirements.
           </p>
         </div>
-      </div> */}
+      </div>
     </section>
   );
 };

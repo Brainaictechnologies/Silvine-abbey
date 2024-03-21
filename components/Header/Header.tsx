@@ -3,9 +3,18 @@ import React, { useEffect, useState } from "react";
 import { navLinks } from "@/constants/constants";
 import Image from "next/image";
 import Link from "next/link";
-import Silvine from "@/app/assets/Frame 555.png";
+import Silvine from "@/app/assets/Silvine.svg";
 import SilvineBlack from "@/app/assets/silvineBlack.svg";
 import { usePathname } from "next/navigation";
+import { MenuIcon } from "lucide-react";
+import {
+  Sheet,
+  SheetContent,
+  SheetDescription,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "@/components/ui/sheet";
 
 const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
@@ -32,7 +41,7 @@ const Header = () => {
   const otherPageScroll = scrollPosition > 100 || pathName !== "/";
   return (
     <section
-      className={`w-full h-28 flex items-center  fixed top-0 left-0 right-0 z-10 ${
+      className={`w-full h-28 flex items-center  fixed top-0 left-0 right-0 pt-8 z-50 ${
         scrollPosition > 100 || pathName !== "/" || otherPageScroll
           ? "bg-[#F2EDE4]"
           : "bg-transparent"
@@ -61,6 +70,27 @@ const Header = () => {
               {name}
             </Link>
           ))}
+        </div>
+        <div className="md:hidden">
+          <Sheet>
+            <SheetTrigger>
+              <div className="md:hidden flex items-center">
+                <MenuIcon size={40} className="text-white" />
+              </div>
+            </SheetTrigger>
+            <SheetContent className="bg-[#F2EDE4] grid place-items-center">
+              <SheetHeader>
+                {/* <SheetTitle>Are you absolutely sure?</SheetTitle> */}
+                {navLinks.map((link) => (
+                  <SheetDescription className="mt-10">
+                    <Link href={link.path} className=" text-xl">
+                      {link.name}
+                    </Link>
+                  </SheetDescription>
+                ))}
+              </SheetHeader>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </section>

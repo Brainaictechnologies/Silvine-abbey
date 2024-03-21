@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { League_Spartan } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const league_spartan = League_Spartan({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Silvine",
@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={league_spartan.className}>{children}</body>
     </html>
   );
 }

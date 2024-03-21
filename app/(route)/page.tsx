@@ -26,9 +26,9 @@ export default function Home() {
           Fufilling Promise: Unveiling the transformative impact on our
           inovators
         </p>
-        <h1 className="py-4 text-2xl">Our Ambition</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-6 mx-auto">
           <div className="bg-[#29337b] text-white p-6">
+            <h1 className="py-4 text-2xl">Our Ambition</h1>
             <p>
               We aspire to become leaders in the global market. This involves
               building a strong reputation, attracting top talents, and
@@ -38,7 +38,7 @@ export default function Home() {
               support our partners stability and longevity.
             </p>
           </div>
-          <div className="py-6 px-4 border ">
+          <div className="w-full h-fullpt-6 px-4 border ">
             <h1 className="py-4 text-2xl">Our Focus</h1>
             <p className="text-gray-500">
               Our Capital raising methods includes issuing stocks, bonds,
@@ -54,11 +54,38 @@ export default function Home() {
               fosters economic growth and competitiveness...
             </p>
 
-            {/* <div className="mt-4 flex ">
-              <p className="bg-blue-500">Capital Raising</p>
-              <p>Trade Financing</p>
-              <p>Project Develpment</p>
-            </div> */}
+            <div className="grid grid-cols-3 gap-0 w-full  items-end mx-0 mt-32 h-72  ">
+              <div className="bg-[#0d6efd] text-white transition-all duration-300  h-16 hover:h-60 grid place-items-center overflow-hidden ">
+                <h1 className=" mb-2  text-sm md:text-base font-bold pt-4  text-center px-1">
+                  Capital Raising
+                </h1>
+                <p className="text-center text-xs md:text-base">
+                  Silvine is positioned to promoting global trade by providing
+                  financial instruments necessary to facilitate transactions and
+                  mitigate risks
+                </p>
+              </div>
+              <div className="bg-[#052c65] text-white transition-all duration-300  h-16 hover:h-60 px-2  grid place-items-center overflow-hidden">
+                <h1 className="mb-2  text-sm md:text-base font-bold pt-4  text-center px-1">
+                  Trade Financing
+                </h1>
+                <p className="text-center text-xs md:text-base">
+                  Capital Raising Silvine investment is built on trust &
+                  credibility and infused in our DNA? is the adroitness to
+                  delivering financial solutions to various businesses.
+                </p>
+              </div>
+              <div className="bg-[#8692ea] text-white transition-all duration-500  h-16 hover:h-64 grid place-items-center overflow-hidden px-2">
+                <h1 className="mb-3  text-sm md:text-base font-bold pt-4  text-center px-1">
+                  Project Develpment
+                </h1>
+                <p className="text-center text-xs sm:text-base">
+                  We help secure funding from investors, lenders, or government
+                  agencies. Ensuring compliance with financial regulatory
+                  requirements.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -106,7 +133,7 @@ export default function Home() {
             Silvine Investment we use your success to measure our own
           </p>
         </div>
-        <div className="hidden sm:block">
+        <div className="hidden sm:block ">
           <Image
             src={blueSilvine}
             alt="Blue silvine"
@@ -123,53 +150,68 @@ export default function Home() {
           Our Portfolio Showcasing Excellence: A Visual Chronicle of Our Diverse
         </p>
 
-        <div className="relative w-full h-full mb-6">
+        <div className="relative w-full h-full mb-6 aspect-[70/35]">
           <div className=" ">
-            <Image
-              src={Portfolio}
-              alt="Portfolio"
-              className="aspect-[70/35] hidden sm:block"
-            />
+            <Image src={Portfolio} alt="Portfolio" fill className="" />
           </div>
+          <div className="sm:absolute top-0 left-0 grid place-items-center h-full  ">
+            <div className=" grid grid-cols-1 sm:grid-cols-2  px-4 lg:px-6 h-full place-items-center gap-6 bg-[#1F275E] sm:bg-transparent">
+              <div className="text-white">
+                <h1 className=" py-3 font-bold">Overview</h1>
+                <p className="">
+                  By maintaining a disciplined and research-driven approach, we
+                  strive to deliver consistent value and financial growth for
+                  our clients. Our portfolio comprises a mix of equities,
+                  fixed-income securities, and alternative investments,
+                  carefully curated to align with our clients&apos; financial
+                  goals and risk tolerance.
+                </p>
+              </div>
 
-          <div className="sm:absolute top-0 left-0 grid grid-cols-1 sm:grid-cols-2 px-4 lg:px-6 h-full place-items-center gap-6 bg-[#1F275E] sm:bg-transparent">
-            <div className="text-white">
-              <h1 className=" py-3 font-bold">Overview</h1>
-              <p className="">
-                By maintaining a disciplined and research-driven approach, we
-                strive to deliver consistent value and financial growth for our
-                clients. Our portfolio comprises a mix of equities, fixed-income
-                securities, and alternative investments, carefully curated to
-                align with our clients&apos; financial goals and risk tolerance.
-              </p>
+              <div className="grid grid-cols-3 gap-6 py-12 w-full">
+                <Image
+                  src={svg}
+                  alt="svg capital"
+                  className="flex items-start justify-start"
+                />
+                <Image
+                  src={Autoby}
+                  alt="Auto buy"
+                  className="flex items-start justify-start"
+                />
+                <Image
+                  src={Brainiac}
+                  alt="Brainiac"
+                  className="flex items-start justify-start"
+                />
+                <Image
+                  src={Advox}
+                  alt="Brainiac"
+                  className="flex items-start justify-start"
+                />
+                <Image
+                  src={Sgi}
+                  alt="SGI"
+                  className="flex items-start justify-start"
+                />
+              </div>
             </div>
-
-            <div className="grid grid-cols-3 gap-6 py-12 w-full">
-              <Image
-                src={svg}
-                alt="svg capital"
-                className="flex items-start justify-start"
-              />
-              <Image
-                src={Autoby}
-                alt="Auto buy"
-                className="flex items-start justify-start"
-              />
-              <Image
-                src={Brainiac}
-                alt="Brainiac"
-                className="flex items-start justify-start"
-              />
-              <Image
-                src={Advox}
-                alt="Brainiac"
-                className="flex items-start justify-start"
-              />
-              <Image
-                src={Sgi}
-                alt="SGI"
-                className="flex items-start justify-start"
-              />
+            <div className="hidden md:grid  grid-cols-5 items-end text-white absolute bottom-0 ">
+              <p className="bg-[#8692ea] h-24 text-center flex items-center justify-center text-xl w-40 font-[500]">
+                Real Estate
+              </p>
+              <p className="bg-white text-black h-24 text-center flex items-center justify-center text-xl w-40 font-[500]">
+                Venture & Growth Funds
+              </p>
+              <p className="bg-black  h-24 text-center flex items-center justify-center text-xl w-40 font-[500]">
+                Financial instruments
+              </p>
+              <p className="bg-green-500 h-16 flex items-center text-xl justify-center w-40 font-[500] ">
+                Direct Investment
+              </p>
+              <p className="bg-black h-24 text-center flex items-center justify-center text-xl w-40 font-[500] ">
+                Buyout Funds
+              </p>
             </div>
           </div>
         </div>
