@@ -82,7 +82,7 @@ const Header = () => {
               <SheetHeader>
                 {/* <SheetTitle>Are you absolutely sure?</SheetTitle> */}
                 {navLinks.map((link) => (
-                  <SheetDescription className="mt-10">
+                  <SheetDescription key={link.key} className="mt-10">
                     <Link href={link.path} className=" text-xl">
                       {link.name}
                     </Link>
