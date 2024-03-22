@@ -92,7 +92,7 @@ export default function Home() {
 
       <div className=" ">
         <div className="max-w-screen-lg  grid max-[500px]:grid-cols-1 grid-cols-3 mt-32 mb-10  gap-4 place-items-center  mx-8 sm:mx-12 md:mx-auto lg:px-6 ">
-          <div className="bg-[#FBF9F7] py-8 px-6 shadow-md hover:bg-black ">
+          <div className="bg-[#FBF9F7] py-8 px-6 shadow-md ">
             <h1 className="font-extrabold py-4">Silvine Fin-Solution</h1>
             <p className="text-[10px]">
               We offer client abroad a range of access classes accross regional
@@ -147,7 +147,7 @@ export default function Home() {
           Our Portfolio Showcasing Excellence: A Visual Chronicle of Our Diverse
         </p>
 
-        <div className="relative w-full h-full mb-6 aspect-square md:aspect-[75/45]">
+        <div className="relative w-full h-full mb-6 aspect-square md:aspect-[70/45] lg:aspect-[75/30]">
           <div className="block w-full">
             <Image
               src={Portfolio}
@@ -158,7 +158,7 @@ export default function Home() {
           </div>
 
           <div className="absolute sm:top-0 sm:left-0 grid place-items-center w-full h-full  ">
-            <div className=" grid grid-cols-1 sm:grid-cols-2  px-4 lg:px-6 h-full place-items-center gap-0 md:gap-6 ">
+            <div className=" grid grid-cols-1 sm:grid-cols-2  px-4 lg:px-6 h-full place-items-center gap-0 md:gap-6 mt-[-1rem] ">
               <div className="text-white">
                 <h1 className=" py-3 font-bold">Overview</h1>
                 <p className="">
