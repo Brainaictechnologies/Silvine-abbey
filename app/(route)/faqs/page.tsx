@@ -8,7 +8,7 @@ import {
 
 const Faqs = () => {
   return (
-    <section className="mt-16 mb-4">
+    <section className="mt-32 mb-4">
       <div className="max-w-screen-xl mx-auto px-6">
         <div className=" mb-12 ">
           <h1 className="text-4xl font-bold ">FAQS</h1>

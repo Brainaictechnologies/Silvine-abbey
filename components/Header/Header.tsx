@@ -36,7 +36,6 @@ const Header = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  console.log(navbarColor);
 
   const otherPageScroll = scrollPosition > 100 || pathName !== "/";
   return (
@@ -47,7 +46,7 @@ const Header = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="flex w-full  max-w-screen-xl mx-auto px-6 justify-between items-center ">
+      <div className="flex w-full  max-w-[1300px] mx-auto px-6 justify-between items-center ">
         <div>
           <Image
             src={
