@@ -46,7 +46,7 @@ const Header = () => {
           : "bg-transparent"
       }`}
     >
-      <div className="flex w-full  max-w-[1300px] mx-auto px-6 justify-between items-center ">
+      <div className="flex w-full  max-w-[1440px] mx-auto px-6 justify-between items-center ">
         <div>
           <Image
             src={

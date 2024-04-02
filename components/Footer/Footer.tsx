@@ -148,9 +148,15 @@ export function Footer() {
 
                 <Link
                   className="mt-6 block text-sm text-[#ACA8A2]"
-                  href={`tel:+234-882763772`}
+                  href={`tel: +234 703 531 0665`}
                 >
-                  +234-882763772
+                  +234 703 531 0665
+                </Link>
+                <Link
+                  className="mt-6 block text-sm text-[#ACA8A2]"
+                  href={`tel:  +234 702 564 0059`}
+                >
+                  +234 702 564 0059
                 </Link>
               </div>
               <div className="flex gap-10">

@@ -1,3 +1,4 @@
+"use client";
 import Hero from "@/components/Hero/Hero";
 import Image from "next/image";
 import silvineLogo from "@/app/assets/silvinelogo.png";
@@ -15,11 +16,27 @@ import Solution from "@/app/assets/Silvinesolution.png";
 import LongleftArrow from "@/app/assets/longarrow.png";
 import GMD from "@/app/assets/GMD.jpg";
 import Leaders from "@/components/Our-leaders/Leaders";
+import { useEffect, useState } from "react";
+import Link from "next/link";
 
 export default function Home() {
+  const [fadeIn, setFadeIn] = useState(false);
+
+  useEffect(() => {
+    // Trigger the fade-in animation after a short delay (e.g., 100ms)
+    const timeout = setTimeout(() => {
+      setFadeIn(true);
+    }, 100);
+
+    // Clean up the timeout to avoid memory leaks
+    return () => clearTimeout(timeout);
+  }, []);
+
   return (
     <main className="w-full ">
+      {/* <div className={`form-container ${fadeIn ? "slide-in" : ""}`}> */}
       <Hero />
+      {/* </div> */}
       <div className="max-w-screen-xl sm:mx-auto mx-6 ">
         <h1 className="mb-2 mt-10 text-2xl font-bold px-6">Our Impact</h1>
         <p className="text-[10px]  text-gray-900 px-6">
@@ -91,22 +108,22 @@ export default function Home() {
       </div>
 
       <div className=" ">
-        <div className="max-w-screen-lg  grid max-[500px]:grid-cols-1 grid-cols-3 mt-32 mb-10  gap-4 place-items-center  mx-8 sm:mx-12 md:mx-auto lg:px-6 ">
-          <div className="bg-[#FBF9F7] py-8 px-6 shadow-md ">
+        <div className="max-w-screen-lg  grid max-[500px]:grid-cols-1 grid-cols-3 mt-32 mb-10 h-56 gap-4 place-items-center  mx-8 sm:mx-12 md:mx-auto lg:px-6 ">
+          <div className="bg-[#FBF9F7] py-8 px-6 shadow-md hover:mb-8 duration-200 ">
             <h1 className="font-extrabold py-4">Silvine Fin-Solution</h1>
             <p className="text-[10px]">
               We offer client abroad a range of access classes accross regional
               and international market
             </p>
           </div>
-          <div className="bg-gray-100 py-8 px-6 shadow-md">
+          <div className="bg-gray-100 py-8 px-6 shadow-md hover:mb-10 duration-300 ">
             <h1 className="font-extrabold py-4">Silvine Investment</h1>
             <p className="text-[10px]">
               We offer client abroad a range of access classes accross regional
               and international market
             </p>
           </div>
-          <div className="bg-[#FEFDFC] py-8 px-6 shadow-md">
+          <div className="bg-[#FEFDFC] py-8 px-6 shadow-md hover:mb-10 duration-300 ">
             <h1 className="font-extrabold py-4">SVG capital</h1>
             <p className="text-[10px]">
               We offer client abroad a range of access classes accross regional
@@ -200,9 +217,9 @@ export default function Home() {
               </div>
             </div>
             <div className="hidden md:grid  grid-cols-5 items-end text-white absolute bottom-0  ">
-              <p className="bg-[#8692ea] h-24 text-center flex items-center justify-center text-xl w-40 font-[500]">
+              {/* <p className="bg-[#8692ea] h-24 text-center flex items-center justify-center text-xl w-40 font-[500]">
                 Real Estate
-              </p>
+              </p> */}
               <p className="bg-white text-black h-24 text-center flex items-center justify-center text-xl w-40 font-[500]">
                 Venture & Growth Funds
               </p>
@@ -245,13 +262,15 @@ export default function Home() {
               Fund (PIF) signed a partners...
             </p>
             <p className="flex gap-4 mt-16 mb-6">
-              Read More <Image src={LongleftArrow} alt="Long right arrow" />
+              <Link href="/management" className="flex gap-4">
+                Read More <Image src={LongleftArrow} alt="Long right arrow" />
+              </Link>
             </p>
           </div>
           <div className="w-full px-6 ">
             <p className="mt-12">11/08/2023</p>
             <h1 className="py-4">SILVINE FIN-SOLUTIONS</h1>
-            <Image src={Solution} alt="Silvine Investment" />
+            <Image src={Solution} alt="Silvine Investment" className="" />
             <h3 className="text-[#4A5CE0] py-2 font-bold">
               Lendo Secures $28M in Series B Funding Led by Silvine f...
             </h3>
@@ -260,8 +279,10 @@ export default function Home() {
               Investment Fund (PIF) signed a partners...
             </p>
 
-            <p className="flex gap-4 mt-16 mb-6">
-              Read More <Image src={LongleftArrow} alt="Long right arrow" />
+            <p className=" mt-16 mb-6">
+              <Link href="/management" className="flex gap-4">
+                Read More <Image src={LongleftArrow} alt="Long right arrow" />
+              </Link>
             </p>
           </div>
         </div>
