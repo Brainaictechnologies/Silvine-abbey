@@ -5,6 +5,7 @@ export const navLinks = [
   { key: 2, name: "Get To Know Us", path: "about-us" },
   { key: 3, name: "Our Management", path: "management" },
   { key: 4, name: "Careers", path: "careers" },
+  { key: 5, name: "Blogs", path: "blog" },
   { key: 5, name: "Contact Us", path: "contact-us" },
 ];
 
