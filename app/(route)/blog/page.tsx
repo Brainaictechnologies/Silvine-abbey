@@ -3,7 +3,7 @@ import { useRouter } from "next/navigation";
 import React from "react";
 
 // Define the type for a blog post
-type BlogPost = {
+type BlogPostData = {
   id: string;
   title: string;
   date: string;
@@ -12,7 +12,7 @@ type BlogPost = {
 };
 
 // Create an array of blog posts
-const blogPosts: BlogPost[] = [
+const blogPosts: BlogPostData[] = [
   {
     id: "1",
     title: "First Blog Post",
