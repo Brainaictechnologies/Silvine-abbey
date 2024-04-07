@@ -1,64 +1,44 @@
+import Link from "next/link";
 import React from "react";
 
 const Article2 = () => {
   return (
     <div>
       <h4>
-        02 Nearpay, the cutting-edge Saudi fintech startup specializing in
-        payments infrastructure as a service, announced today the successful
-        closure of a $14 million Series A funding round led by Sanabil
-        Investments, a wholly owned company by the Public Investment Fund
-        (“PIF”). This investment round, which includes Vision Ventures, Hala
-        Ventures, Arzan Ventures, and stc&apos;s Corporate Investment Fund
-        (CIF), marks a pivotal moment for 02 Nearpay as it continues to redefine
-        the landscape of payments.
+        02 We serve established financial institutions and companies as our
+        clients. In our assessment process, clients demonstrate a company's
+        financial background by providing audited accounts and showcasing the
+        revenues from the previous year. It is anticipated that the revenues
+        from the previous year (whether personal, corporate, or combined)
+        surpass the face value of the required Collateral Guarantee service,
+        which can be verified through audited accounts.
         <br />
         <br />
-        Founded in 2020 by Mohamed Aleban and Hamza AlFarhan, Nearpay has
-        swiftly emerged as a pioneer in the fintech sector, offering businesses
-        a revolutionary payments infrastructure with a focus on POS and SoftPOS
-        technology. Nearpay, a pioneer in Tap on Phone/SoftPos technology in the
-        MENA region, has developed its infrastructure from ground up. This
-        innovative solution simplifies accepting payments on any device
-        including phones, tablets, kiosks and handheld devices easier than ever,
-        offering a seamless and secure experience for both merchants and
-        consumers.
-        <br />
-        <br />
-        The Series A funding round will empower Nearpay to accelerate its
-        mission of transforming how businesses handle payments. The $14 million
-        funding round will be instrumental in supporting the company&apos;s
-        global expansion plans, advancing technological capabilities, and
-        solidifying Nearpay&apos;s commitment to driving excellence in payments
-        infrastructure with a focus on card present payments.
-        <br />
-        <br />
-        &quot;Our vision for redefining payments has not only been validated but
-        supercharged with this investment. The road ahead is thrilling, filled
-        with opportunities as we use this momentum to effortlessly revolutionize
-        mobile transactions, creating seamless experiences for businesses and
-        consumers&quot;, said Mohamed Aleban, Co-Founder & CEO of Nearpay.
-        <br />
-        <br />
-        Sanabil Investments spokesperson commented,” We are excited to back
-        NearPay in its journey to enable seamless POS transactions and boost
-        local and regional digital payment evolution. NearPay successfully
-        emerged as a preferred provider for SoftPOS solutions, solving key pain
-        points for its partners and business users. We look forward to
-        supporting the company realize its full potential through its next phase
-        of growth”.
-        <br />
-        <br />
-        Nearpay&apos;s SoftPOS transforms every device with NFC(near field
-        communication) into a secure payment terminal, eliminating the need for
-        extra hardware. This not only streamlines payments but also slashes
-        costs for businesses, presenting an irresistible solution across diverse
-        industries.
-        <br />
-        <br />
-        As Nearpay continues to disrupt the fintech space, the Series A funding
-        round reinforces the company&apos;s position as a key player in shaping
-        the future of payments.
+        Our clients are backed by reputable banks. The borrower's bank serves as
+        the custodian for the lender of the securities for the agreed-upon
+        duration. The borrower's bank must support the transaction with an
+        irrevocable financial commitment to pay an agreed lending fee upon
+        delivery and verification of the Collateral Guarantee and to serve as
+        the custodian for the lender of the securities for the agreed-upon
+        period. The client&apos;s bank offers four conditional payment options
+        for receiving the Collateral Guarantee service: (A) Conditional
+        Irrevocable Pay Order (ICPO) endorsed by the borrower's bank, (B)
+        Unconditional Promissory Note payable within 180 days and endorsed by
+        the receiving bank, (C) Conditional payment via SWIFT MT103, (D)
+        Conditional Documentary Credit sent via SWIFT MT 700. Key Points to
+        Remember:
+        <ul className="list-none ">
+          <li>
+            - The Borrower must meet qualification criteria, and their company
+            must demonstrate substance.
+          </li>
+          <li>
+            - The Borrower's bank must issue a conditional payment commitment.
+          </li>
+        </ul>
+        <Link href={`tel: +234 703 531 0665`} className="mt-4 inline-block">
+          Schedule a call
+        </Link>
       </h4>
     </div>
   );

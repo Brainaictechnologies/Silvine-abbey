@@ -1,6 +1,9 @@
 "use client";
-import Hero from "@/components/Hero/Hero";
+import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
+
+import Hero from "@/components/Hero/Hero";
 import silvineLogo from "@/app/assets/silvinelogo.png";
 import blueSilvine from "@/app/assets/bluesilvine.png";
 import blackSilvine from "@/app/assets/blackSilvine.png";
@@ -16,8 +19,6 @@ import Solution from "@/app/assets/Silvinesolution.png";
 import LongleftArrow from "@/app/assets/longarrow.png";
 import GMD from "@/app/assets/GMD.jpg";
 import Leaders from "@/components/Our-leaders/Leaders";
-import { useEffect, useState } from "react";
-import Link from "next/link";
 
 export default function Home() {
   const [fadeIn, setFadeIn] = useState(false);
@@ -56,7 +57,9 @@ export default function Home() {
             </p>
           </div>
           <div className="w-full h-fullpt-6 px-4 border ">
-            <h1 className="py-4 text-2xl">Our Focus</h1>
+            <h1 className="py-4 text-2xl">
+              Ready to Level Up? See If Your Business Qualifies for Funding!
+            </h1>
             <p className="text-gray-500">
               Our Capital raising methods includes issuing stocks, bonds,
               obtaining loans, seeking venture capital and private equity
@@ -108,26 +111,50 @@ export default function Home() {
       </div>
 
       <div className=" ">
-        <div className="max-w-screen-lg  grid max-[500px]:grid-cols-1 grid-cols-3 mt-32 mb-10 h-56 gap-4 place-items-center  mx-8 sm:mx-12 md:mx-auto lg:px-6 ">
+        <div className="max-w-screen-lg  grid max-[500px]:grid-cols-1 grid-cols-3 mt-32 mb-10 h-72 gap-4 place-items-center  mx-8 sm:mx-12 md:mx-auto lg:px-6 ">
           <div className="bg-[#FBF9F7] py-8 px-6 shadow-md hover:mb-8 duration-200 ">
-            <h1 className="font-extrabold py-4">Silvine Fin-Solution</h1>
+            <h1 className="font-extrabold py-4">
+              Silvine fin-solution (Capital raising)
+            </h1>
             <p className="text-[10px]">
-              We offer client abroad a range of access classes accross regional
-              and international market
+              Our team has a solid track record of raising capital for companies
+              looking to expand their businesses or fund structural investments
+              to increase shareholder value.
+            </p>
+            <p className="text-[10px]">
+              For a client to receive a fully cash-backed, divisible, and
+              assignable Bank Guarantee or Standby Letter of Credit issued by a
+              leading global bank, the client must meet financial qualification
+              criteria. These instruments are arranged through licensed
+              securities dealers and transmitted via SWIFT MT760..
             </p>
           </div>
           <div className="bg-gray-100 py-8 px-6 shadow-md hover:mb-10 duration-300 ">
             <h1 className="font-extrabold py-4">Silvine Investment</h1>
             <p className="text-[10px]">
-              We offer client abroad a range of access classes accross regional
-              and international market
+              Every company and investor possesses unique and specific
+              requirements. At Silvine our primary focus is matchmaking,
+              ensuring that the risk/reward profile of investments aligns
+              closely with the preferences of each individual investor. Each
+              company and investor has a distinct set of needs. our core
+              objective is to act as matchmakers, ensuring that the risk/reward
+              profile of investments closely matches the preferences of every
+              individual investor.
             </p>
           </div>
           <div className="bg-[#FEFDFC] py-8 px-6 shadow-md hover:mb-10 duration-300 ">
-            <h1 className="font-extrabold py-4">SVG capital</h1>
+            <h1 className="font-extrabold py-4">
+              SVG Capital (Corporate finance)
+            </h1>
             <p className="text-[10px]">
-              We offer client abroad a range of access classes accross regional
-              and international market
+              With a proven track record in advising companies across diverse
+              sectors like real estate, offshore, energy, transportation, and
+              more, we bring a wealth of experience to the table. We specialize
+              in helping companies in financial distress. Our team has a proven
+              ability to advise on restructuring, turnaround strategies, and
+              insolvency/bankruptcy situations. Our strength lies in mediating
+              between banks, financial institutions, and shipowners to find
+              workable solutions for all parties involved.
             </p>
           </div>
         </div>

@@ -4,61 +4,58 @@ const Article3 = () => {
   return (
     <div>
       <h4>
-        03 Nearpay, the cutting-edge Saudi fintech startup specializing in
-        payments infrastructure as a service, announced today the successful
-        closure of a $14 million Series A funding round led by Sanabil
-        Investments, a wholly owned company by the Public Investment Fund
-        (“PIF”). This investment round, which includes Vision Ventures, Hala
-        Ventures, Arzan Ventures, and stc&apos;s Corporate Investment Fund
-        (CIF), marks a pivotal moment for 02 Nearpay as it continues to redefine
-        the landscape of payments.
+        <p className="text-lg">
+          We are a trusted SWIFT service provider offering a range of financial
+          instruments to empower your business:
+        </p>
+        <ul className="list-disc ml-6">
+          <li>
+            Bank Guarantees (BG): Secure vital transactions with guaranteed
+            payment from a top-tier bank.
+          </li>
+          <li>
+            Corporate Guarantees (CG): Leverage the financial strength of your
+            parent company or subsidiaries.
+          </li>
+          <li>
+            Standby Letters of Credit (SBLC): Guarantee payment obligations in
+            case of non-performance by a trading partner.
+          </li>
+          <li>
+            Documentary Letters of Credit (LC & DLC): Facilitate secure
+            international trade transactions.
+          </li>
+          <li>
+            Warranties (Avals): Obtain additional financial backing for your
+            projects.
+          </li>
+        </ul>
+        <p>Streamline Your Transaction with Expert Guidance </p>
         <br />
         <br />
-        Founded in 2020 by Mohamed Aleban and Hamza AlFarhan, Nearpay has
-        swiftly emerged as a pioneer in the fintech sector, offering businesses
-        a revolutionary payments infrastructure with a focus on POS and SoftPOS
-        technology. Nearpay, a pioneer in Tap on Phone/SoftPos technology in the
-        MENA region, has developed its infrastructure from ground up. This
-        innovative solution simplifies accepting payments on any device
-        including phones, tablets, kiosks and handheld devices easier than ever,
-        offering a seamless and secure experience for both merchants and
-        consumers.
-        <br />
-        <br />
-        The Series A funding round will empower Nearpay to accelerate its
-        mission of transforming how businesses handle payments. The $14 million
-        funding round will be instrumental in supporting the company&apos;s
-        global expansion plans, advancing technological capabilities, and
-        solidifying Nearpay&apos;s commitment to driving excellence in payments
-        infrastructure with a focus on card present payments.
-        <br />
-        <br />
-        &quot;Our vision for redefining payments has not only been validated but
-        supercharged with this investment. The road ahead is thrilling, filled
-        with opportunities as we use this momentum to effortlessly revolutionize
-        mobile transactions, creating seamless experiences for businesses and
-        consumers&quot;, said Mohamed Aleban, Co-Founder & CEO of Nearpay.
-        <br />
-        <br />
-        Sanabil Investments spokesperson commented,” We are excited to back
-        NearPay in its journey to enable seamless POS transactions and boost
-        local and regional digital payment evolution. NearPay successfully
-        emerged as a preferred provider for SoftPOS solutions, solving key pain
-        points for its partners and business users. We look forward to
-        supporting the company realize its full potential through its next phase
-        of growth”.
-        <br />
-        <br />
-        Nearpay&apos;s SoftPOS transforms every device with NFC(near field
-        communication) into a secure payment terminal, eliminating the need for
-        extra hardware. This not only streamlines payments but also slashes
-        costs for businesses, presenting an irresistible solution across diverse
-        industries.
-        <br />
-        <br />
-        As Nearpay continues to disrupt the fintech space, the Series A funding
-        round reinforces the company&apos;s position as a key player in shaping
-        the future of payments.
+        <p>
+          Do you have an immediate transaction requiring a secure financial
+          instrument?
+        </p>
+        Our team of experts is here to help. If you feel you meet the
+        qualifications, contact us to schedule an initial call. We'll work with
+        you to find the best solution for your specific needs and ensure a
+        smooth and efficient process.
+        <p>Why Choose Us?</p>
+        <ul className=" ml-7 list-disc">
+          <li>
+            Seamless SWIFT Integration: We ensure secure and reliable
+            communication with international banks.
+          </li>
+          <li>
+            Experienced Professionals: Benefit from our in-depth knowledge of
+            financial instruments and international trade.
+          </li>
+          <li>
+            Personalized Service: We take the time to understand your business
+            and tailor our solutions accordingly.
+          </li>
+        </ul>
       </h4>
     </div>
   );

@@ -90,25 +90,26 @@ const Hero = () => {
         <div className="bg-white  p-6 md:p-3 text-black ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-[22rem] md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
           <h1 className="py-4 font-bold">Trade Finance</h1>
           <p className="text-xs md:pb-4 ">
-            Silvine is positioned to promoting global trade by providing
-            financial instruments necessary to facilitate transactions and
-            mitigate risks
+            Our foremost focus is on crafting products tailored to our
+            customers' needs, ensuring their satisfaction remains our top
+            priority. Our solutions continually adapt to meet their evolving
+            requirements.
           </p>
         </div>
         <div className="bg-black  p-6 md:p-3 text-white ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-[22rem]  md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
           <h1 className="py-4"> Capital Raising</h1>
           <p className="text-xs md:pb-4">
-            Capital Raising Silvine investment is built on trust & credibility
-            and infused in our DNA? is the adroitness to delivering financial
-            solutions to various businesses.
+            Every member of the Silvine team contributes distinctive expertise,
+            enriching our collective capabilities. Collaboratively, we strive to
+            empower our clients to conduct business securely.
           </p>
         </div>
         <div className="bg-[#29337b] p-6 md:p-3 text-white ml-8 md:ml-0 relative w-24 h-20 flex md:flex-col gap-6 items-center hover:w-[22rem]  md:w-64  transition-all duration-500  md:gap-0 md:h-16 md:hover:h-36 md:hover:w-64 overflow-hidden  ">
           <h1 className="py-4">Project Development</h1>
           <p className="text-xs md:pb-4 ">
-            We help secure funding from investors, lenders, or government
-            agencies. Ensuring compliance with financial regulatory
-            requirements.
+            Operating on a global scale, both our teams and services cater to
+            our clients' business requirements, spanning across domestic and
+            diverse international markets
           </p>
         </div>
       </div>

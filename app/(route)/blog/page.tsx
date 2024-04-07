@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import React from "react";
 
-// Define the type for a blog post
+// Define the type for a blog postz
 type BlogPostData = {
   id: string;
   title: string;
@@ -72,7 +72,7 @@ const blogPosts: BlogPostData[] = [
 ];
 
 // Blog page component
-export const SingleBlogPage = () => {
+const SingleBlogPage = () => {
   const router = useRouter();
   return (
     <div className="bg-gray-100 min-h-screen py-12 mt-24">
@@ -105,3 +105,4 @@ export const SingleBlogPage = () => {
     </div>
   );
 };
+export default SingleBlogPage;

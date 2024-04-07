@@ -14,6 +14,23 @@ const Leaders = () => {
           <p className=" text-[#666460] pb-3">
             Guiding Visionaries: Introducing the Minds Behind Our Leadership
           </p>
+          <p>
+            Silvine adheres to a straightforward philosophy. It leverages its
+            understanding of the requirements and capacities of all parties
+            involved in a potential transaction or issue to construct bridges
+            that facilitate mutually advantageous solutions. While Silvine
+            vigorously upholds its independence, it readily shares its
+            expertise, contacts, networks, and the time necessary to illuminate
+            the crucial aspects of a proposal or the pivotal moments of an
+            issue.
+          </p>
+          <p className="mt-3">
+            As a knowledge-driven and impartial intermediary, Silvine is
+            consistently positioned to provide calm, reasoned, and well-informed
+            evaluations of any project. It utilizes these assessments and their
+            relationships with the involved parties to facilitate transactions,
+            align financing with projects, and address challenges effectively.
+          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2  place-items-center  gap-6">
           <div className="w-full border-r px-6 bg-[#FEFDFC]">
