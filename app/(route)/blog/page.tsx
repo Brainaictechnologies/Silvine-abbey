@@ -19,7 +19,7 @@ const blogPosts: BlogPostData[] = [
     date: "April 1, 2022",
     content:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum lorem et enim ultricies, quis placerat felis tincidunt.",
-    imageUrl: "https://via.placeholder.com/500", // Replace with actual image URL
+    imageUrl: "https://via.placeholder.com/500",
   },
   {
     id: "2",
@@ -27,7 +27,7 @@ const blogPosts: BlogPostData[] = [
     date: "April 5, 2022",
     content:
       "Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium.",
-    imageUrl: "https://via.placeholder.com/500", // Replace with actual image URL
+    imageUrl: "https://via.placeholder.com/500",
   },
   {
     id: "3",
@@ -35,7 +35,7 @@ const blogPosts: BlogPostData[] = [
     date: "April 5, 2022",
     content:
       "Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium.",
-    imageUrl: "https://via.placeholder.com/500", // Replace with actual image URL
+    imageUrl: "https://via.placeholder.com/500",
   },
   {
     id: "4",
@@ -43,7 +43,7 @@ const blogPosts: BlogPostData[] = [
     date: "April 5, 2022",
     content:
       "Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium.",
-    imageUrl: "https://via.placeholder.com/500", // Replace with actual image URL
+    imageUrl: "https://via.placeholder.com/500",
   },
   {
     id: "5",
@@ -51,7 +51,7 @@ const blogPosts: BlogPostData[] = [
     date: "April 5, 2022",
     content:
       "Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium.",
-    imageUrl: "https://via.placeholder.com/500", // Replace with actual image URL
+    imageUrl: "https://via.placeholder.com/500",
   },
   {
     id: "6",
@@ -59,7 +59,7 @@ const blogPosts: BlogPostData[] = [
     date: "April 5, 2022",
     content:
       "Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium.",
-    imageUrl: "https://via.placeholder.com/500", // Replace with actual image URL
+    imageUrl: "https://via.placeholder.com/500",
   },
   {
     id: "7",
@@ -67,13 +67,12 @@ const blogPosts: BlogPostData[] = [
     date: "April 5, 2022",
     content:
       "Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium.",
-    imageUrl: "https://via.placeholder.com/500", // Replace with actual image URL
+    imageUrl: "https://via.placeholder.com/500",
   },
-  // Add more blog posts as needed
 ];
 
 // Blog page component
-const BlogPage: React.FC = () => {
+export const SingleBlogPage = () => {
   const router = useRouter();
   return (
     <div className="bg-gray-100 min-h-screen py-12 mt-24">
@@ -106,5 +105,3 @@ const BlogPage: React.FC = () => {
     </div>
   );
 };
-
-export default BlogPage;
