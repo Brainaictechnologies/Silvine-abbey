@@ -91,7 +91,7 @@ const Hero = () => {
           <h1 className="py-4 font-bold">Trade Finance</h1>
           <p className="text-xs md:pb-4 ">
             Our foremost focus is on crafting products tailored to our
-            customers' needs, ensuring their satisfaction remains our top
+            customer&aps;s needs, ensuring their satisfaction remains our top
             priority. Our solutions continually adapt to meet their evolving
             requirements.
           </p>
@@ -108,7 +108,7 @@ const Hero = () => {
           <h1 className="py-4">Project Development</h1>
           <p className="text-xs md:pb-4 ">
             Operating on a global scale, both our teams and services cater to
-            our clients' business requirements, spanning across domestic and
+            our client&aps;s business requirements, spanning across domestic and
             diverse international markets
           </p>
         </div>

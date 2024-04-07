@@ -38,8 +38,8 @@ const Article3 = () => {
           instrument?
         </p>
         Our team of experts is here to help. If you feel you meet the
-        qualifications, contact us to schedule an initial call. We'll work with
-        you to find the best solution for your specific needs and ensure a
+        qualifications, contact us to schedule an initial call. We&aps;ll work
+        with you to find the best solution for your specific needs and ensure a
         smooth and efficient process.
         <p>Why Choose Us?</p>
         <ul className=" ml-7 list-disc">
