@@ -30,15 +30,15 @@ const Article3 = () => {
             projects.
           </li>
         </ul>
-        <p>Streamline Your Transaction with Expert Guidance </p>
-        <br />
-        <br />
+        <p className="mt-1">
+          Streamline Your Transaction with Expert Guidance{" "}
+        </p>
         <p>
           Do you have an immediate transaction requiring a secure financial
           instrument?
         </p>
         Our team of experts is here to help. If you feel you meet the
-        qualifications, contact us to schedule an initial call. We&aps;ll work
+        qualifications, contact us to schedule an initial call. We&apos;ll work
         with you to find the best solution for your specific needs and ensure a
         smooth and efficient process.
         <p>Why Choose Us?</p>

@@ -4,61 +4,84 @@ const Article4 = () => {
   return (
     <div>
       <h4>
-        04 Nearpay, the cutting-edge Saudi fintech startup specializing in
-        payments infrastructure as a service, announced today the successful
-        closure of a $14 million Series A funding round led by Sanabil
-        Investments, a wholly owned company by the Public Investment Fund
-        (“PIF”). This investment round, which includes Vision Ventures, Hala
-        Ventures, Arzan Ventures, and stc&apos;s Corporate Investment Fund
-        (CIF), marks a pivotal moment for 02 Nearpay as it continues to redefine
-        the landscape of payments.
+        <p className="py-1 text-lg">
+          An obligation to arrange your Collateralized Loan.
+        </p>
+        A collateral-backed loan, commonly organized by seasoned professionals
+        of high standing, entails a borrower offering assets as security to
+        obtain the loan. This collateral protects the lender should the borrower
+        default on the loan. In the event of non-payment according to the agreed
+        terms, the lender is entitled to seize the collateral and sell it to
+        recoup the outstanding debt. The types of assets eligible for collateral
+        may vary depending on the lender and loan type but typically include…
         <br />
+        Acceptable forms of collateral may include:
+        <ul>
+          <li>
+            - Real Estate encompasses residential properties, commercial
+            buildings, or undeveloped land.
+          </li>
+          <li>
+            - Vehicles: Such as automobiles, trucks, boats, or motorcycles.
+          </li>
+          <li>
+            - Financial Assets: Including stocks, bonds, or certificates of
+            deposit (CDs).
+          </li>
+          <li>
+            - Equipment or Machinery: Particularly in business loans, where the
+            financed equipment can serve as collateral.
+          </li>
+          <li>- Jewelry: High-value items like diamonds or precious metals.</li>
+          <li>
+            - Accounts Receivable: In certain instances, a business&apos;s
+            outstanding invoices may be utilized as collateral.
+          </li>
+        </ul>
         <br />
-        Founded in 2020 by Mohamed Aleban and Hamza AlFarhan, Nearpay has
-        swiftly emerged as a pioneer in the fintech sector, offering businesses
-        a revolutionary payments infrastructure with a focus on POS and SoftPOS
-        technology. Nearpay, a pioneer in Tap on Phone/SoftPos technology in the
-        MENA region, has developed its infrastructure from ground up. This
-        innovative solution simplifies accepting payments on any device
-        including phones, tablets, kiosks and handheld devices easier than ever,
-        offering a seamless and secure experience for both merchants and
-        consumers.
-        <br />
-        <br />
-        The Series A funding round will empower Nearpay to accelerate its
-        mission of transforming how businesses handle payments. The $14 million
-        funding round will be instrumental in supporting the company&apos;s
-        global expansion plans, advancing technological capabilities, and
-        solidifying Nearpay&apos;s commitment to driving excellence in payments
-        infrastructure with a focus on card present payments.
-        <br />
-        <br />
-        &quot;Our vision for redefining payments has not only been validated but
-        supercharged with this investment. The road ahead is thrilling, filled
-        with opportunities as we use this momentum to effortlessly revolutionize
-        mobile transactions, creating seamless experiences for businesses and
-        consumers&quot;, said Mohamed Aleban, Co-Founder & CEO of Nearpay.
-        <br />
-        <br />
-        Sanabil Investments spokesperson commented,” We are excited to back
-        NearPay in its journey to enable seamless POS transactions and boost
-        local and regional digital payment evolution. NearPay successfully
-        emerged as a preferred provider for SoftPOS solutions, solving key pain
-        points for its partners and business users. We look forward to
-        supporting the company realize its full potential through its next phase
-        of growth”.
-        <br />
-        <br />
-        Nearpay&apos;s SoftPOS transforms every device with NFC(near field
-        communication) into a secure payment terminal, eliminating the need for
-        extra hardware. This not only streamlines payments but also slashes
-        costs for businesses, presenting an irresistible solution across diverse
-        industries.
-        <br />
-        <br />
-        As Nearpay continues to disrupt the fintech space, the Series A funding
-        round reinforces the company&apos;s position as a key player in shaping
-        the future of payments.
+        To qualify for a collateral-backed loan, clients typically need to meet
+        <ul>
+          <li>
+            - Adequate Collateral Value: The value of the collateral must equal
+            or surpass the requested loan amount. Lenders often require a
+            professional appraisal to ascertain the collateral&apos;s value.
+          </li>
+          <li>
+            - Creditworthiness: Despite the collateral securing the loan,
+            lenders still consider the borrower&apos;s credit history and
+            financial stability. A positive credit history can enhance approval
+            prospects and influence loan terms, including the interest rate.
+          </li>
+          <li>
+            - Repayment Capacity: Lenders assess the borrower&apos;s income and
+            financial circumstances to ensure they possess the means to repay
+            the loan. This often necessitates providing evidence of income
+            through audited accounts.
+          </li>
+          <li>
+            - Loan Purpose: The intended utilization of the loan proceeds may
+            impact eligibility, as some lenders impose specific requirements on
+            how the funds can be used.
+          </li>
+          <li>
+            - Loan Type and Lender Specifications: Various types of
+            collateral-backed loans (e.g., home equity loans, auto loans, or
+            secured corporate loans) may have distinct eligibility criteria.
+            Moreover, different lenders may have diverse requirements and
+            guidelines.
+          </li>
+        </ul>
+        It&apos;s essential to recognize that while collateral-backed loans,
+        arranged by Elite Senior Professionals, may offer easier qualification
+        for borrowers with imperfect credit, they also entail risks. Defaulting
+        on the loan could result in the forfeiture of pledged collateral.
+        Therefore, borrowers should carefully assess their ability to repay the
+        loan before using assets as collateral. Engaging Elite Senior
+        Professionals through a Mandate and Retainer demonstrates your
+        commitment to the transaction and ensures access to the expertise of
+        experienced professionals dedicated to serving your best interests.
+        Elite Senior Professionals expect and deserve compensation for their
+        services upon successful funding.
       </h4>
     </div>
   );

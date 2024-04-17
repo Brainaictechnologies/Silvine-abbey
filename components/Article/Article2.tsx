@@ -6,7 +6,7 @@ const Article2 = () => {
     <div>
       <h4>
         02 We serve established financial institutions and companies as our
-        clients. In our assessment process, clients demonstrate a company&aps;s
+        clients. In our assessment process, clients demonstrate a company&apos;s
         financial background by providing audited accounts and showcasing the
         revenues from the previous year. It is anticipated that the revenues
         from the previous year (whether personal, corporate, or combined)
@@ -14,15 +14,15 @@ const Article2 = () => {
         which can be verified through audited accounts.
         <br />
         <br />
-        Our clients are backed by reputable banks. The borrower&aps;s bank
+        Our clients are backed by reputable banks. The borrower&apos;s bank
         serves as the custodian for the lender of the securities for the
-        agreed-upon duration. The borrower&aps;s bank must support the
+        agreed-upon duration. The borrower&apos;s bank must support the
         transaction with an irrevocable financial commitment to pay an agreed
         lending fee upon delivery and verification of the Collateral Guarantee
         and to serve as the custodian for the lender of the securities for the
         agreed-upon period. The client&apos;s bank offers four conditional
         payment options for receiving the Collateral Guarantee service: (A)
-        Conditional Irrevocable Pay Order (ICPO) endorsed by the borrower&aps;s
+        Conditional Irrevocable Pay Order (ICPO) endorsed by the borrower&apos;s
         bank, (B) Unconditional Promissory Note payable within 180 days and
         endorsed by the receiving bank, (C) Conditional payment via SWIFT MT103,
         (D) Conditional Documentary Credit sent via SWIFT MT 700. Key Points to
@@ -33,7 +33,7 @@ const Article2 = () => {
             must demonstrate substance.
           </li>
           <li>
-            - The Borrower&aps;s bank must issue a conditional payment
+            - The Borrower&apos;s bank must issue a conditional payment
             commitment.
           </li>
         </ul>
