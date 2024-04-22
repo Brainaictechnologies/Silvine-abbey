@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Silvine from "@/app/assets/Silvine.svg";
 import SilvineBlack from "@/app/assets/silvineBlack.svg";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { MenuIcon } from "lucide-react";
 import {
   Sheet,
@@ -20,6 +20,7 @@ const Header = () => {
   const [scrollPosition, setScrollPosition] = useState(0);
   const [navbarColor, setNavbarColor] = useState("transparent");
   const pathName = usePathname();
+  const router = useRouter();
 
   const handleScroll = () => {
     if (typeof window !== "undefined") {
@@ -47,27 +48,28 @@ const Header = () => {
       }`}
     >
       <div className="flex w-full  max-w-[1440px] mx-auto px-6 justify-between items-center ">
-        <div>
+        <Link href={"/"}>
           <Image
             src={
               scrollPosition > 100 || pathName !== "/" ? SilvineBlack : Silvine
             }
             alt="silvine"
           />
-        </div>
+        </Link>
         <div className="hidden md:flex space-x-3 font-bold items-center">
           {navLinks.map(({ key, name, path }) => (
-            <Link
-              href={path}
+            <p
+              // href={path}
+              onClick={() => router.push(`/${path}`)}
               key={key}
               className={
                 scrollPosition > 100 || pathName !== "/"
-                  ? "text-gray-800"
-                  : `text-white`
+                  ? "text-gray-800 cursor-pointer"
+                  : `text-white cursor-pointer`
               }
             >
               {name}
-            </Link>
+            </p>
           ))}
         </div>
         <div className="md:hidden">

@@ -15,10 +15,11 @@ type BlogPostData = {
 const blogPosts: BlogPostData[] = [
   {
     id: "1",
-    title: "First Blog Post",
-    date: "April 1, 2022",
+    title:
+      "Businesses often seek Credit Enhancement when a bank or seller harbors reservations about a client's financial history or collateral adequacy.",
+    date: "April 17, 2024",
     content:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vestibulum lorem et enim ultricies, quis placerat felis tincidunt.",
+      "While banks extend Credit Enhancement Support, it's typically reserved for well-established companies boasting robust financial standings. Establishing enduring, trust-based relationships with substantial and reputable clientele is paramount for banks. To garner bank support, qualification is imperative. Banks adhere to specific protocols when evaluating applications, focusing on the borrower's Capacity, Collateral, Capital, Character, and General Conditions. These fundamentals constitute the bedrock of credit analysis for loan applications or financial service provision. The strength of your financial business background directly impacts the terms you can secure. Conversely, a weak financial and business history severely diminishes prospects for bank support. In banking reality, those least reliant on bank assistance often receive seamless, favorable service.",
     imageUrl: "https://via.placeholder.com/500",
   },
   {
@@ -95,7 +96,7 @@ const SingleBlogPage = () => {
               <div className="p-6">
                 <h2 className="text-xl font-semibold mb-2">{blogPost.title}</h2>
                 <p className="text-gray-700">{blogPost.date}</p>
-                <p className="mt-4">{blogPost.content}</p>
+                <p className="mt-4 truncate">{blogPost.content}</p>
                 {/* Add more content as needed */}
               </div>
             </div>
