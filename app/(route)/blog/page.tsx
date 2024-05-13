@@ -34,10 +34,7 @@ const SingleBlogPage = () => {
                 <h2 className="text-xl font-semibold mb-2">{blogPost.title}</h2>
                 <p className="text-gray-700">{blogPost.date}</p>
                 <p className="mt-4 truncate">{blogPost.content}</p>
-                {/* <p className="mt-4 truncate">{blogPost.subtitle1}</p>
-                <p className="mt-4 truncate">{blogPost.content1}</p>
-                <p className="mt-4 truncate">{blogPost.subtitle2}</p>
-                <p className="mt-4 truncate">{blogPost.content2}</p> */}
+
                 {/* Add more content as needed */}
               </div>
             </div>
