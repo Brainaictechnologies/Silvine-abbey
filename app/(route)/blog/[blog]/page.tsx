@@ -1,29 +1,46 @@
+import Image from "next/image";
 import React from "react";
+import { BlogPostData, blogPosts } from "@/constants/constants";
 
 // Define the type for a blog post
 
 // Single blog page component
-const SingleBlogPage = () => {
+const SingleBlogPage = ({ params }: { params: { blog: string } }) => {
+  const singleblog = blogPosts.find((blog) => blog.id === params.blog);
+
   return (
     <div className="bg-gray-100 min-h-screen py-12 mt-24">
       <div className="max-w-4xl mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-8">{"Second Blog Post"}</h1>
+        <h1 className="text-4xl font-bold mb-8">{singleblog?.title}</h1>
 
         <div className="bg-white shadow-md rounded-lg overflow-hidden">
-          <img
-            src={"https://via.placeholder.com/500"}
+          <Image
+            src={singleblog?.imageUrl}
             alt="Blog Post"
             width={500}
             height={500}
-            className="w-full h-56 object-cover"
+            className="w-full h-full object-cover"
           />
           <div className="p-6">
-            <p className="text-gray-700">{"April 5, 2022"}</p>
-            <p className="mt-4">
-              {
-                "Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium Nullam eleifend elit ac ante egestas, nec sagittis enim ullamcorper. Phasellus condimentum dolor sed magna tincidunt, et faucibus mauris pretium."
-              }
-            </p>
+            <p className="text-gray-700">{singleblog?.date}</p>
+            <p className="mt-4">{singleblog?.content}</p>
+            <p className="mt-4 ">{singleblog?.subtitle1}</p>
+            <p className="mt-4 ">{singleblog?.content1}</p>
+            <p className="mt-4 ">{singleblog?.subtitle2}</p>
+            <p className="mt-4 ">{singleblog?.content2}</p>
+            <p className="mt-4 ">{singleblog?.subtitle3}</p>
+            <p className="mt-4 ">{singleblog?.content3}</p>
+            <p className="mt-4 ">{singleblog?.subtitle4}</p>
+            <p className="mt-4 ">{singleblog?.content4}</p>
+            <p className="mt-4 ">{singleblog?.subtitle5}</p>
+            <p className="mt-4 ">{singleblog?.content5}</p>
+            <p className="mt-4 ">{singleblog?.subtitle6}</p>
+            <p className="mt-4 ">{singleblog?.content6}</p>
+            <p className="mt-4 ">{singleblog?.subtitle7}</p>
+            <p className="mt-4 ">{singleblog?.content7}</p>
+            <p className="mt-4 ">{singleblog?.subtitle8}</p>
+            <p className="mt-4 ">{singleblog?.content8}</p>
+            <p className="mt-4 ">{singleblog?.content9}</p>
           </div>
         </div>
       </div>

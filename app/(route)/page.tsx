@@ -267,7 +267,9 @@ export default function Home() {
       <div className="max-w-screen-xl mx-auto px-6 bg-[#FEFDFC] mb-8">
         <div className="flex items-center justify-between border-b py-4">
           <div>
-            <h1 className="font-bold text-2xl">News</h1>
+            <Link href={"/blog"} className="font-bold text-2xl ">
+              Latest News
+            </Link>
             <p className=" text-[#666460]">
               Stay Informed: Discover the Latest Updates and Insights in Our
               News Hub
@@ -289,7 +291,7 @@ export default function Home() {
               Fund (PIF) signed a partners...
             </p>
             <p className="flex gap-4 mt-16 mb-6">
-              <Link href="/management" className="flex gap-4">
+              <Link href="/blog" className="flex gap-4">
                 Read More <Image src={LongleftArrow} alt="Long right arrow" />
               </Link>
             </p>
@@ -307,7 +309,7 @@ export default function Home() {
             </p>
 
             <p className=" mt-16 mb-6">
-              <Link href="/management" className="flex gap-4">
+              <Link href="/blog" className="flex gap-4">
                 Read More <Image src={LongleftArrow} alt="Long right arrow" />
               </Link>
             </p>

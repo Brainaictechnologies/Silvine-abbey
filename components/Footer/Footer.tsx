@@ -35,37 +35,26 @@ export function Footer() {
                   <AccordionTrigger>
                     Does Silvine invest directly in capital markets?
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It adheres to the WAI-ARIA design pattern.
-                  </AccordionContent>
+                  <AccordionContent>No</AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-2" className="text-start">
                   <AccordionTrigger>
                     What is Silvine holding period for direct investments?
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It comes with default styles that matches the other
-                    components&apos; aesthetic.
-                  </AccordionContent>
+                  <AccordionContent>NO</AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-3" className="text-start">
                   <AccordionTrigger>
                     What is Silvine holding period for direct investments?
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It&apos;s animated by default, but you can disable it
-                    if you prefer.
-                  </AccordionContent>
+                  <AccordionContent>NO</AccordionContent>
                 </AccordionItem>
                 <AccordionItem value="item-4" className="text-start">
                   <AccordionTrigger>
                     How can we share an investment opportunity with Silvine
                     Investment?
                   </AccordionTrigger>
-                  <AccordionContent>
-                    Yes. It&apos;s animated by default, but you can disable it
-                    if you prefer.
-                  </AccordionContent>
+                  <AccordionContent>NO</AccordionContent>
                 </AccordionItem>
               </Accordion>
             </div>
