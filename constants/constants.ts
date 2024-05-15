@@ -50,7 +50,7 @@ export type BlogPostData = {
   content10?: string;
   content11?: string;
   content12?: string;
-  imageUrl: string;
+  imageUrl: StaticImageData;
 };
 
 // Create an array of blog posts
