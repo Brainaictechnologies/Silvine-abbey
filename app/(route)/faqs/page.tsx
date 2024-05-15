@@ -19,11 +19,9 @@ const Faqs = () => {
 
         <div className="mb-16">
           <h1 className="uppercase py-6">Our Company FAQ&apos;s</h1>
+          <h1> What does Silvine do?</h1>
           <p className="font-bold text-gray-800 max-w-[60rem]">
-            We concentrate on providing trade instruments, investments and
-            project development. We are a nimble and highly experienced team of
-            financial professionals with a proven track record of delivering
-            attractive financial returns.
+            We strictly arrange collateral at the moment for importers
           </p>
         </div>
         <div>
@@ -34,23 +32,42 @@ const Faqs = () => {
           >
             <AccordionItem className=" text-start py-4 " value="item-1">
               <AccordionTrigger>
-                What are the typical challenges for importers using trade
-                finance?
+                <h1>1. What is Trade Finance</h1>
               </AccordionTrigger>
               <AccordionContent>
-                Complying with documentation requirements, finding financing at
-                competitive rates, and navigating complex trade regulation
+                <p>
+                  Trade finance refers to banking instruments aimed at
+                  mitigating risks for both buyers and sellers engaged in
+                  international trade. Given the significant time lapse between
+                  shipping and receipt of goods, coupled with the involvement of
+                  multiple countries, inherent risks are inherent in global
+                  transactions. Trade finance intervenes to enable parties to
+                  minimize the risk of financial loss. Additionally, trade
+                  finance aids in cost reduction, supply chain optimization, and
+                  fostering confidence between buyers and sellers Effective
+                  trade finance arrangements for sellers guarantee appealing
+                  sales terms and enhance competitiveness. Consequently, this
+                  can result in larger orders and improved economies of scale.
+                </p>
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-2" className="text-start py-4">
               <AccordionTrigger className="">
-                How can trade finance help exporters?
+                <h1> 2. In what ways does trade finance mitigate risk?</h1>
               </AccordionTrigger>
               <AccordionContent>
-                Receive guaranteed payment upon shipment, protect against
-                non-payment, improve cash flow, and expand access to
-                international buyers
+                <p>
+                  Exporters face the risk of non-payment for shipped goods. To
+                  mitigate this, they may demand pre-payment, which then
+                  transfers the risk to the importer. Moreover, international
+                  trade carries inherent risks such as exchange rate
+                  fluctuations, legal complexities, language barriers, and
+                  potential political instability. Additionally, assessing the
+                  creditworthiness of overseas counterparts poses challenges.
+                  Trade finance intervenes to ensure payment and shipment,
+                  subject to specific conditions being fulfilled.
+                </p>
               </AccordionContent>
             </AccordionItem>
 
@@ -59,25 +76,17 @@ const Faqs = () => {
               className="text-start py-4 hover:no-underline"
             >
               <AccordionTrigger className="">
-                What are the benefits of using trade finance?
+                <h1> 3 What Types of trade finance exist?</h1>
               </AccordionTrigger>
               <AccordionContent>
+                <h1>There are three primary types of trade finance:</h1>
                 <ul className="list-disc space-y-6">
+                  <li className="py-1">1. Letters of credit</li>
                   <li className="py-1">
-                    Reduced risk: Minimises potential losses for both buyer and
-                    seller.
+                    2. Bonds, guarantees, and standby credits
                   </li>
                   <li className="py-1">
-                    Improved cash flow: Provides financing at key stages of a
-                    trade transaction.
-                  </li>
-                  <li className="py-1">
-                    Faster transactions: Streamlines processes and facilitates
-                    quicker trade movements.
-                  </li>
-                  <li className="py-1">
-                    Increased access to international markets: Expands business
-                    opportunities for companies of all sizes.
+                    3. Structured trade finance transactions
                   </li>
                 </ul>
               </AccordionContent>
@@ -85,266 +94,163 @@ const Faqs = () => {
 
             <AccordionItem value="item-4" className="text-start">
               <AccordionTrigger className="">
-                What is trade finance?
+                <h1>4 What is letter of credit in trade finance?</h1>
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
-                Trade finance refers to the financial instruments and products
-                that facilitate international trade and commerce. It includes
-                various services such as letters of credit, trade credit
-                insurance, and financing options to mitigate the risks and
-                challenges associated with cross-border transactions.
+                <p>
+                  A letter of credit is a contractual agreement wherein a bank
+                  commits to making payment to an exporter upon presentation of
+                  specified documents demonstrating the shipment of the goods.
+                  Letters of credit are commonly used as a payment method in
+                  international trade, albeit less frequently in domestic trade.
+                </p>
+                <p>
+                  The buyer initiates letters of credit by arranging with their
+                  bank (the issuing bank). Upon delivery of the goods to the
+                  carrier, the seller submits the requisite documents (typically
+                  a bill of lading) evidencing the shipment to the issuing bank.
+                  Subsequently, the bank examines these documents, and if they
+                  comply with the stipulated requirements, the bank disburses
+                  payment to the seller and furnishes the buyer with proof of
+                  payment documents. With these documents in hand, the buyer can
+                  claim the goods from the carrier.
+                </p>
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-5" className="text-start">
               <AccordionTrigger className="">
-                What is a letter of credit?
+                <h1>5 What do bonds and guarantees entail in trade finance?</h1>
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
-                A letter of credit is a financial instrument issued by a bank
-                that guarantees a buyer&apos;s payment to a seller, provided
-                that certain conditions are met. It acts as a secure method of
-                payment in international trade transactions.
+                <p>
+                  Bonds and guarantees offer an alternative method to safeguard
+                  against potential scenarios such as non-shipment by the
+                  exporter or non-payment by the importer. The issuer of the
+                  bond or guarantee pledges to fulfill the obligations of the
+                  exporter or importer in the event of default. The primary
+                  distinction between letters of credit and bonds lies in their
+                  function: a letter of credit serves as a payment mechanism
+                  whereby the bank assumes the buyer's payment obligations for
+                  the goods, whereas a bond does not trigger payment to the
+                  exporter unless the importer defaults on their payment duty.
+                  However, in both cases, the bank steps in to make payment to
+                  the seller on behalf of the buyer. In trade finance, bonds or
+                  guarantees typically involve two banks: one situated in the
+                  buyer's country and the other in the seller's country. This
+                  arrangement ensures that the seller can refrain from pursuing
+                  a foreign bank to enforce payment demands.
+                </p>
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-6" className="text-start">
               <AccordionTrigger className="">
-                What is trade credit insurance
+                <h1>6 What is a Standby Letter of Credit (SBLC / SLOC)?</h1>
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
-                Trade credit insurance protects businesses against the risk of
-                non-payment by their buyers. It provides coverage for losses
-                arising from commercial and political risks, allowing companies
-                to trade with confidence.
+                <p>
+                  A Standby Letter of Credit (SBLC / SLOC) represents a
+                  commitment by a bank to guarantee payment on behalf of a
+                  client, even in situations where the client is unable to
+                  fulfill the payment obligation. It serves as a final fallback
+                  option from the bank and is ideally intended to remain unused.
+                </p>
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-7" className="text-start">
               <AccordionTrigger className="">
-                How can a small business access trade finance?
+                <h1>
+                  7 How is a contractual SBLC utilized and what is its
+                  mechanism?
+                </h1>
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
-                Small businesses can access trade finance through banks,
-                financial institutions, or government-backed programs. They may
-                explore options such as export credit insurance, working capital
-                loans, and trade financing solutions specifically designed for
-                small and medium-sized enterprises (SMEs).
+                <p>
+                  An SBLC serves as a protective measure for the beneficiary,
+                  aiming to mitigate risks inherent in trade transactions.
+                  Essentially, it acts as a guarantee of payment issued by a
+                  bank on behalf of a client. Commonly regarded as a "payment of
+                  last resort," an SBLC is invoked under specific circumstances
+                  to prevent contracts from remaining unfulfilled, particularly
+                  in scenarios where a business undergoes bankruptcy or fails to
+                  meet financial obligations. Moreover, the presence of an SBLC
+                  is often interpreted as a demonstration of good faith,
+                  providing assurance of the buyer's creditworthiness and
+                  capacity to fulfill payment obligations. To establish an SBLC,
+                  a brief underwriting process is typically conducted to assess
+                  the credit quality of the requesting party. Subsequently,
+                  notification is forwarded to the bank of the party seeking the
+                  Letter of Credit, usually the seller. In the event of default,
+                  the counterparty may recoup a portion of the financing through
+                  the issuing bank under an SBLC. This utilization of Standby
+                  Letter of Credits serves to instill confidence in companies.
+                </p>
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-8" className="text-start">
               <AccordionTrigger className="">
-                How does trade finance help mitigate risks in international
-                trade?
+                <h1>
+                  8. What constitutes a negotiable or transferable letter of
+                  credit
+                </h1>
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
-                Trade finance instruments such as letters of credit, trade
-                credit insurance, and guarantees help mitigate risks by
-                providing financial security and ensuring that both parties in
-                an international trade transaction fulfil their obligations.
-                This reduces the risk of non-payment, delivery issues, and other
-                uncertainties.
+                <p>
+                  Letters of credit are occasionally labeled as negotiable or
+                  transferable. The issuing bank will make payments to either
+                  the beneficiary or a bank designated by the beneficiary. With
+                  the beneficiary holding this authority, they can transfer or
+                  assign the proceeds of a letter of credit to another company.
+                </p>
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-9" className="text-start">
               <AccordionTrigger className="">
-                What is a documentary collection?
+                <h1>
+                  9. What are the methods for financing a Standby Letter of
+                  Credit?
+                </h1>
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
-                A documentary collection is a trade finance method where the
-                exporter&apos;s bank collects payment from the importer through
-                the presentation of documents. The exporter retains control of
-                the goods until the importer makes the payment or accepts a bill
-                of exchange.
+                <p>
+                  To issue a standby letter of credit, banks generally
+                  necessitate a cash pledge as collateral. This service incurs a
+                  fee, typically calculated as a percentage of the letter of
+                  credit's value
+                </p>
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-10" className="text-start">
               <AccordionTrigger className="">
-                What are INCO terms, and why are they important in international
-                trade?
+                <h1>
+                  10. Is it possible for non-payment to occur with an SBLC?
+                </h1>
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
-                INCO terms (International Commercial Terms) are standardised
-                terms used in international trade to define the responsibilities
-                and obligations of buyers and sellers regarding the delivery of
-                goods. They specify who is responsible for transportation,
-                insurance, and other costs associated with the shipment.
+                <p>
+                  Payment under an SBLC will occur if the issuing bank remains
+                  operational and the beneficiary satisfies the conditions
+                  outlined in the letter.
+                </p>
               </AccordionContent>
             </AccordionItem>
 
             <AccordionItem value="item-11" className="text-start">
               <AccordionTrigger className="">
-                How can we identify and mitigate financial risks in the project?
+                <h1>11.What if the bank fails or I don’t trust it?</h1>
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
-                Perform a comprehensive risk assessment, including market,
-                credit, operational, and regulatory risks. Develop risk
-                mitigation strategies and contingency plans.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-12" className="text-start">
-              <AccordionTrigger className="">
-                What are the various sources of funding for finance projects?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Explore options such as equity financing, debt financing,
-                venture capital, and government grants. Evaluate the cost of
-                capital for each source.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-13" className="text-start">
-              <AccordionTrigger className="">
-                How do we determine the optimal capital structure for the
-                project?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Consider the mix of debt and equity that minimises the cost of
-                capital while balancing financial risk.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-14" className="text-start">
-              <AccordionTrigger className="">
-                How do we track the financial performance of the project?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Implement key performance indicators (KPIs) and financial
-                metrics. Regularly review financial reports and adjust
-                strategies as needed.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-15" className="text-start">
-              <AccordionTrigger className="">
-                What factors should be considered in the project initiation
-                phase?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Consider market demand, regulatory environment, financial
-                viability, risk assessment, and alignment with the
-                organisation&apos;s overall strategy.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-16" className="text-start">
-              <AccordionTrigger className="">
-                What are the potential financial penalties for non-compliance?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Understand the regulatory landscape and potential penalties for
-                non-compliance. Allocate resources for compliance monitoring and
-                reporting
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-17" className="text-start">
-              <AccordionTrigger className="">
-                How can stakeholders maximise returns upon project completion?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Consider divestment strategies, profit distribution, or
-                reinvestment in new opportunities to maximise returns.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-18" className="text-start">
-              <AccordionTrigger className="">
-                What is the due diligence process in a project financing?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem] ">
-                <ul className="space-y-6">
-                  <li>
-                    Before we submit a project finance loan request or documents
-                    to our financial partners, we perform a preliminary due
-                    diligence investigation. While not the final, comprehensive
-                    due diligence that will be required if the deal continues
-                    forward, the preliminary due diligence investigation is
-                    intended to uncover any sponsor or project deficiencies that
-                    would hinder the closing of the project financing.
-                  </li>
-                  <li>
-                    We will verify the Sponsor’s reputation, financial strength,
-                    and relevant experience. We will verify the quality and
-                    sufficiency of the project documents (at least those that
-                    have been prepared to date), and we will analyse the project
-                    and property in tandem with our site visit. Our Preliminary
-                    Due Diligence Report will be prepared after the site visit
-                    and provided to the lenders.
-                  </li>
-                </ul>
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-19" className="text-start">
-              <AccordionTrigger className="">
-                What is capital raising?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Capital raising refers to the process of obtaining funds to
-                finance or expand a business. It typically involves securing
-                investment from various sources, such as equity investors,
-                lenders, or other financial institutions.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-20" className="text-start">
-              <AccordionTrigger className="">
-                What are the main methods of capital raising?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                The main methods include issuing equity (such as through IPOs or
-                private placements), taking on debt through loans or bonds, and
-                utilising hybrid instruments like convertible securities
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-21" className="text-start">
-              <AccordionTrigger className="">
-                What role do investment banks play in capital raising?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Investment banks often facilitate capital raising activities,
-                especially in the case of IPOs. They assist with underwriting,
-                marketing, and distributing securities to investors.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-22" className="text-start">
-              <AccordionTrigger className="">
-                How do private companies raise capital?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Private companies can raise capital through private placements,
-                venture capital funding, angel investors, and other private
-                investment methods.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-23" className="text-start">
-              <AccordionTrigger className="">
-                What is an Initial Public Offering (IPO)?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                An IPO is the first sale of a company&apos;s stock to the
-                public. It allows a privately-owned company to become publicly
-                traded and raise capital from public investors.
-              </AccordionContent>
-            </AccordionItem>
-
-            <AccordionItem value="item-11" className="text-start">
-              <AccordionTrigger className="">
-                What factors should be considered in the project initiation
-                phase?
-              </AccordionTrigger>
-              <AccordionContent className="max-w-[60rem]">
-                Consider market demand, regulatory environment, financial
-                viability, risk assessment, and alignment with the
-                organisation&apos;s overall strategy.
+                <p>
+                  If there is legitimate concern regarding the bank's
+                  reliability in making payments, a confirmed letter of credit
+                  may be utilized. This involves a "stronger" bank confirming
+                  the letter of credit.
+                </p>
               </AccordionContent>
             </AccordionItem>
           </Accordion>
