@@ -131,15 +131,15 @@ const Faqs = () => {
                   exporter or importer in the event of default. The primary
                   distinction between letters of credit and bonds lies in their
                   function: a letter of credit serves as a payment mechanism
-                  whereby the bank assumes the buyer's payment obligations for
-                  the goods, whereas a bond does not trigger payment to the
+                  whereby the bank assumes the buyer&apos;s payment obligations
+                  for the goods, whereas a bond does not trigger payment to the
                   exporter unless the importer defaults on their payment duty.
                   However, in both cases, the bank steps in to make payment to
                   the seller on behalf of the buyer. In trade finance, bonds or
                   guarantees typically involve two banks: one situated in the
-                  buyer's country and the other in the seller's country. This
-                  arrangement ensures that the seller can refrain from pursuing
-                  a foreign bank to enforce payment demands.
+                  buyer&apos;s country and the other in the seller&apos;s
+                  country. This arrangement ensures that the seller can refrain
+                  from pursuing a foreign bank to enforce payment demands.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -177,7 +177,7 @@ const Faqs = () => {
                   in scenarios where a business undergoes bankruptcy or fails to
                   meet financial obligations. Moreover, the presence of an SBLC
                   is often interpreted as a demonstration of good faith,
-                  providing assurance of the buyer's creditworthiness and
+                  providing assurance of the buyer&apos;s creditworthiness and
                   capacity to fulfill payment obligations. To establish an SBLC,
                   a brief underwriting process is typically conducted to assess
                   the credit quality of the requesting party. Subsequently,
@@ -220,7 +220,7 @@ const Faqs = () => {
                   To issue a standby letter of credit, banks generally
                   necessitate a cash pledge as collateral. This service incurs a
                   fee, typically calculated as a percentage of the letter of
-                  credit's value
+                  credit&apos;s value
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -242,11 +242,11 @@ const Faqs = () => {
 
             <AccordionItem value="item-11" className="text-start">
               <AccordionTrigger className="">
-                <h1>11.What if the bank fails or I don’t trust it?</h1>
+                <h1>11.What if the bank fails or I don&apos;t trust it?</h1>
               </AccordionTrigger>
               <AccordionContent className="max-w-[60rem]">
                 <p>
-                  If there is legitimate concern regarding the bank's
+                  If there is legitimate concern regarding the bank&apos;s
                   reliability in making payments, a confirmed letter of credit
                   may be utilized. This involves a "stronger" bank confirming
                   the letter of credit.
