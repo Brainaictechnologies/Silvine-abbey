@@ -171,21 +171,22 @@ const Faqs = () => {
                   An SBLC serves as a protective measure for the beneficiary,
                   aiming to mitigate risks inherent in trade transactions.
                   Essentially, it acts as a guarantee of payment issued by a
-                  bank on behalf of a client. Commonly regarded as a "payment of
-                  last resort," an SBLC is invoked under specific circumstances
-                  to prevent contracts from remaining unfulfilled, particularly
-                  in scenarios where a business undergoes bankruptcy or fails to
-                  meet financial obligations. Moreover, the presence of an SBLC
-                  is often interpreted as a demonstration of good faith,
-                  providing assurance of the buyer&apos;s creditworthiness and
-                  capacity to fulfill payment obligations. To establish an SBLC,
-                  a brief underwriting process is typically conducted to assess
-                  the credit quality of the requesting party. Subsequently,
-                  notification is forwarded to the bank of the party seeking the
-                  Letter of Credit, usually the seller. In the event of default,
-                  the counterparty may recoup a portion of the financing through
-                  the issuing bank under an SBLC. This utilization of Standby
-                  Letter of Credits serves to instill confidence in companies.
+                  bank on behalf of a client. Commonly regarded as a
+                  &quot;payment of last resort,&quot; an SBLC is invoked under
+                  specific circumstances to prevent contracts from remaining
+                  unfulfilled, particularly in scenarios where a business
+                  undergoes bankruptcy or fails to meet financial obligations.
+                  Moreover, the presence of an SBLC is often interpreted as a
+                  demonstration of good faith, providing assurance of the
+                  buyer&apos;s creditworthiness and capacity to fulfill payment
+                  obligations. To establish an SBLC, a brief underwriting
+                  process is typically conducted to assess the credit quality of
+                  the requesting party. Subsequently, notification is forwarded
+                  to the bank of the party seeking the Letter of Credit, usually
+                  the seller. In the event of default, the counterparty may
+                  recoup a portion of the financing through the issuing bank
+                  under an SBLC. This utilization of Standby Letter of Credits
+                  serves to instill confidence in companies.
                 </p>
               </AccordionContent>
             </AccordionItem>
@@ -248,8 +249,8 @@ const Faqs = () => {
                 <p>
                   If there is legitimate concern regarding the bank&apos;s
                   reliability in making payments, a confirmed letter of credit
-                  may be utilized. This involves a "stronger" bank confirming
-                  the letter of credit.
+                  may be utilized. This involves a &quot;stronger&quot; bank
+                  confirming the letter of credit.
                 </p>
               </AccordionContent>
             </AccordionItem>
