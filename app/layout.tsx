@@ -19,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <TawkToScript />
-      <GoogleTagManager gtmId="G-RSFZ53NYE5" />
+      <GoogleTagManager gtmId="G-52447BRC" />
       <body className={league_spartan.className}>{children}</body>
     </html>
   );
