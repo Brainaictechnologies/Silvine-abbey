@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { League_Spartan } from "next/font/google";
-import { GoogleTagManager } from "@next/third-parties/google";
+import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 import "./globals.css";
 import TawkToScript from "@/components/Tawkto/Tawkto";
 
@@ -20,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <TawkToScript />
       <GoogleTagManager gtmId="G-52447BRC" />
+      <GoogleAnalytics gaId="G-KE61LG0HRQ" />
       <body className={league_spartan.className}>{children}</body>
     </html>
   );
