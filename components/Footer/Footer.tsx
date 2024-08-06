@@ -107,26 +107,39 @@ export function Footer() {
             <div className="mt-10  flex flex-col sm:flex-row gap-6 sm:gap-10   ">
               <div>
                 <div className="flex items-center gap-4 mb-6">
-                  <Image
-                    src={X}
-                    alt="X"
-                    className="hover:scale-[1.2] transition-all duration-100"
-                  />
-                  <Image
-                    src={Facebook}
-                    alt="FaceBook"
-                    className="hover:scale-[1.2] transition-all duration-100"
-                  />
-                  <Image
-                    src={LinkedIn}
-                    alt="LinkedIn"
-                    className="hover:scale-[1.2] transition-all duration-100"
-                  />
-                  <Image
-                    src={Instagram}
-                    alt="Instagram"
-                    className="hover:scale-[1.2] transition-all duration-100"
-                  />
+                  <Link href={"https://x.com/Silvineinvest"}>
+                    <Image
+                      src={X}
+                      alt="X"
+                      className="hover:scale-[1.2] transition-all duration-100"
+                    />
+                  </Link>
+
+                  <Link href={"https://www.facebook.com/silvineinvestment"}>
+                    <Image
+                      src={Facebook}
+                      alt="FaceBook"
+                      className="hover:scale-[1.2] transition-all duration-100"
+                    />
+                  </Link>
+
+                  <Link
+                    href={"https://www.linkedin.com/company/silvineinvestment"}
+                  >
+                    <Image
+                      src={LinkedIn}
+                      alt="LinkedIn"
+                      className="hover:scale-[1.2] transition-all duration-100"
+                    />
+                  </Link>
+
+                  <Link href={"https://www.instagram.com/silvineinvestment/"}>
+                    <Image
+                      src={Instagram}
+                      alt="Instagram"
+                      className="hover:scale-[1.2] transition-all duration-100"
+                    />
+                  </Link>
                 </div>
                 <Link
                   href={"mailto: Info@silvineinvestment.com"}

@@ -110,9 +110,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" ">
-        <div className="max-w-screen-lg  grid max-[500px]:grid-cols-1 grid-cols-3 mt-32 mb-10 h-72 gap-4 place-items-center  mx-8 sm:mx-12 md:mx-auto lg:px-6 ">
-          <div className="bg-[#FBF9F7] py-8 px-6 shadow-md hover:mb-8 duration-200 ">
+      <div className="h-full ">
+        <div className="lg:max-w-screen-lg  grid grid-cols-1 s:grid-cols-2 md:grid-cols-3 mt-32 mb-10 md:h-[20rem] gap-4 place-items-center  mx-8 sm:mx-12 md:mx-auto lg:px-6 ">
+          <div className="bg-[#FBF9F7] py-8 px-6 shadow-md md:hover:mb-8 duration-200 ">
             <h1 className="font-extrabold py-4">
               Silvine fin-solution (Capital raising)
             </h1>
@@ -129,7 +129,7 @@ export default function Home() {
               securities dealers and transmitted via SWIFT MT760..
             </p>
           </div>
-          <div className="bg-gray-100 py-8 px-6 shadow-md hover:mb-10 duration-300 ">
+          <div className="bg-gray-100 py-8 px-6 shadow-md md:hover:mb-10 duration-300 ">
             <h1 className="font-extrabold py-4">Silvine Investment</h1>
             <p className="text-[10px]">
               Every company and investor possesses unique and specific
@@ -142,7 +142,7 @@ export default function Home() {
               individual investor.
             </p>
           </div>
-          <div className="bg-[#FEFDFC] py-8 px-6 shadow-md hover:mb-10 duration-300 ">
+          <div className="bg-[#FEFDFC] py-8 px-6 shadow-md md:hover:mb-10 duration-300 ">
             <h1 className="font-extrabold py-4">
               SVG Capital (Corporate finance)
             </h1>
