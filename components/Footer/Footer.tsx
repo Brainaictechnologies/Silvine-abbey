@@ -104,9 +104,9 @@ export function Footer() {
           <h1 className="font-bold tracking-wide">Silvine Investment</h1>
           <p className="text-[#ACA8A2] text-sm">socials</p>
           <div className="grid sm:grid-cols-2">
-            <div className="mt-10  flex flex-col sm:flex-row gap-6 sm:gap-10   ">
+            <div className="mt-10 z-50 flex flex-col sm:flex-row gap-6 sm:gap-10">
               <div>
-                <div className="flex items-center gap-4 mb-6">
+                <div className="flex items-center gap-4 mb-6 ">
                   <Link href={"https://x.com/Silvineinvest"}>
                     <Image
                       src={X}
